@@ -10,7 +10,7 @@ if (mouse_x < 160 && mouse_y < 160) {
 	switch (global.heldtower) {
 	    case "archer":
 			instance_create_layer(mouse_x,mouse_y,"Instances",obj_archer)
-			obj_game.cash -= 100
+			obj_game.cash -= obj_button_archer.itemprice
 			global.heldtower = ""
 			window_set_cursor(cr_default)
 			window_set_cursor(cr_none)
