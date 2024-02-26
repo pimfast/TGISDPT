@@ -4,9 +4,11 @@ audio_stop_all()
 
 if (room == rm_menu) {
 	//audio_play_sound(mus_32,1,1)
+	window_set_cursor(cr_none)
 	exit;
 }
 
+window_set_cursor(cr_default)
 cash = 115
 defense_points = 10
 
@@ -57,9 +59,9 @@ switch (room) {
 		
 		global.wave3 = []
 		array_set(global.wave3, 0, "baddie");
-		array_set(global.wave3, 1, "baddie");
 		array_set(global.wave3, 2, "baddie");
-		array_set(global.wave3, 3, "bigbaddie");
+		array_set(global.wave3, 4, "baddie");
+		array_set(global.wave3, 6, "bigbaddie");
 		
 		global.wave4 = []
 		array_set(global.wave4, 0, "slug");

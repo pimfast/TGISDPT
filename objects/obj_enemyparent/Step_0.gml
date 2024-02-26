@@ -1,7 +1,7 @@
 /// @desc
 
 walked++;
-if(walked % 32 == 0){
+if(walked % (16/walksp) == 0){
 	realwalked++;
 }
 if( ! is_undefined(global.path[realwalked]) && global.path[realwalked] != 0){

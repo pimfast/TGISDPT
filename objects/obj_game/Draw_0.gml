@@ -6,7 +6,7 @@ if (room != rm_menu) {
 	draw_set_halign(fa_right)
 	draw_text_color(300,10,"Cash: "+string(cash),c_purple,c_purple,c_purple,c_purple,1)
 	draw_text_color(300,20,"HP: "+string(defense_points),c_purple,c_purple,c_purple,c_purple,1)
-	if (instance_exists(obj_towerparent)) {draw_circle(obj_towerparent.x+sprite_width/2,obj_towerparent.y+sprite_height/2,obj_towerparent.attack_range,true)}
+	if (!is_undefined(selectedtower)) {draw_circle(selectedtower.x+sprite_width/2,selectedtower.y+sprite_height/2,obj_towerparent.attack_range,true)}
 	
 	if (timetowave > 0) {
 		draw_set_halign(fa_left)

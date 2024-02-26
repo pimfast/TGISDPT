@@ -16,8 +16,6 @@ if (mouse_x < 160 || mouse_y < 160) {
 			instance_create_layer(tower_x,tower_y,"Instances",obj_archer)
 			obj_game.cash -= obj_button_archer.itemprice
 			global.heldtower = ""
-			window_set_cursor(cr_default)
-			window_set_cursor(cr_none)
 	        break;
 		case "cannon":
 			instance_create_layer(tower_x,tower_y,"Instances",obj_cannon)
@@ -47,6 +45,7 @@ if (mouse_x < 160 || mouse_y < 160) {
 	        //do nothing
 	        break;
 	}
-	cursor_sprite = cr_default
+	window_set_cursor(cr_default)
+	cursor_sprite = -1
 }
 

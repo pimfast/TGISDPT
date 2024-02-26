@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "mus_lose",
+  "name": "TGISDPT_lose",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "mus_lose.mp3",
+  "soundFile": "TGISDPT_lose.mp3",
   "type": 0,
   "volume": 1.0,
 }
