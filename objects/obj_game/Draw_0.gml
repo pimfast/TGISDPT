@@ -10,6 +10,7 @@ if (room != rm_menu) {
 	
 	if (timetowave > 0) {
 		draw_set_halign(fa_left)
+		draw_set_valign(fa_top)
 		draw_text_color(0,65,string(timetowave),c_black,c_black,c_black,c_black,1)
 	}
 	
@@ -18,6 +19,16 @@ if (room != rm_menu) {
 		draw_set_valign(fa_middle)
 		draw_text_transformed_color(room_width/2,room_height/2,"game over!",5,5,0,c_purple,c_purple,c_purple,c_purple,1)
 	}
+	if (!instance_exists(obj_enemyparent) && currentwave = noone) {
+		if (room_exists(room_next(room))) {
+			room_goto_next()
+		} else {		
+			draw_set_halign(fa_center)
+			draw_set_valign(fa_middle)
+			draw_text_transformed_color(room_width/2,room_height/2,"you win!",5,5,0,c_purple,c_purple,c_purple,c_purple,1)
+		}
+	}
+	
 } else {
 
 //draw_set_halign(fa_center)
