@@ -1,12 +1,12 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @desc
 
 draw_set_font(fnt_1)
-draw_set_halign(fa_right)
 
 if (room != rm_menu) {
-	draw_text_color(300,10,"Cash "+string(cash),c_purple,c_purple,c_purple,c_purple,1)
-	draw_text_color(300,20,"DP "+string(defense_points),c_purple,c_purple,c_purple,c_purple,1)
+	draw_set_halign(fa_right)
+	draw_text_color(300,10,"Cash: "+string(cash),c_purple,c_purple,c_purple,c_purple,1)
+	draw_text_color(300,20,"HP: "+string(defense_points),c_purple,c_purple,c_purple,c_purple,1)
+	if (instance_exists(obj_towerparent)) {draw_circle(obj_towerparent.x+sprite_width/2,obj_towerparent.y+sprite_height/2,obj_towerparent.attack_range,true)}
 	
 	if (timetowave > 0) {
 		draw_set_halign(fa_left)
@@ -14,7 +14,9 @@ if (room != rm_menu) {
 	}
 	
 	if (defense_points <= 0) {
-		draw_text_transformed_color(room_width/2,room_height/2,"game over",10,10,0,c_purple,c_purple,c_purple,c_purple,1)
+		draw_set_halign(fa_center)
+		draw_set_valign(fa_middle)
+		draw_text_transformed_color(room_width/2,room_height/2,"game over",5,5,0,c_black,c_black,c_black,c_black,1)
 	}
 } else {
 

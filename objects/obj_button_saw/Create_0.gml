@@ -1,4 +1,4 @@
 /// @desc create (child)
 
-itemprice = 90
+itemprice = 80
 itemtype = "saw"

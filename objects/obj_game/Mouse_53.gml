@@ -21,25 +21,25 @@ if (mouse_x < 160 || mouse_y < 160) {
 	        break;
 		case "cannon":
 			instance_create_layer(tower_x,tower_y,"Instances",obj_cannon)
-			obj_game.cash -= 100
+			obj_game.cash -= obj_button_cannon.itemprice
 			global.heldtower = ""
 			//cursor_sprite = spr_cannon
 			break;
 		case "knight":
 			instance_create_layer(tower_x,tower_y,"Instances",obj_knight)
-			obj_game.cash -= 100
+			obj_game.cash -= obj_button_knight.itemprice
 			global.heldtower = ""
 			//cursor_sprite = spr_knight
 			break;
 		case "saw":
 			instance_create_layer(tower_x,tower_y,"Instances",obj_saw)
-			obj_game.cash -= 100
+			obj_game.cash -= obj_button_saw.itemprice
 			global.heldtower = ""
 			//cursor_sprite = spr_saw
 			break;
 		case "wizard":
 			instance_create_layer(tower_x,tower_y,"Instances",obj_wizard)
-			obj_game.cash -= 100
+			obj_game.cash -= obj_button_wizard.itemprice
 			global.heldtower = ""
 			//cursor_sprite = spr_wizard
 			break;
@@ -47,5 +47,6 @@ if (mouse_x < 160 || mouse_y < 160) {
 	        //do nothing
 	        break;
 	}
+	cursor_sprite = cr_default
 }
 

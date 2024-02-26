@@ -1,11 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @desc
 
 cash = 115
 defense_points = 10
 
-timetowave = 15
-alarm_set(0,gamespeed_microseconds*60)
+timetowave = 5
+alarm_set(0,60)
 
 audio_stop_all()
 switch (room) {

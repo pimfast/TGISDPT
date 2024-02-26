@@ -3,7 +3,7 @@
 timetowave -= 1
 
 if (timetowave > 0) {
-	alarm_set(0,gamespeed_microseconds*60)
+	alarm_set(0,60)
 } else {
-	alarm_set(1,gamespeed_microseconds*100)
+	alarm_set(1,100)
 }
