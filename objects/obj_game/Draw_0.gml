@@ -16,7 +16,7 @@ if (room != rm_menu) {
 	if (defense_points <= 0) {
 		draw_set_halign(fa_center)
 		draw_set_valign(fa_middle)
-		draw_text_transformed_color(room_width/2,room_height/2,"game over",5,5,0,c_black,c_black,c_black,c_black,1)
+		draw_text_transformed_color(room_width/2,room_height/2,"game over!",5,5,0,c_purple,c_purple,c_purple,c_purple,1)
 	}
 } else {
 

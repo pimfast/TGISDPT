@@ -78,6 +78,8 @@
     {"name":"spr_button_cannon","order":4,"path":"sprites/spr_button_cannon/spr_button_cannon.yy",},
     {"name":"obj_button_knight","order":3,"path":"objects/obj_button_knight/obj_button_knight.yy",},
     {"name":"spr_scatleft","order":3,"path":"sprites/spr_scatleft/spr_scatleft.yy",},
+    {"name":"mus_win","order":12,"path":"sounds/mus_win/mus_win.yy",},
     {"name":"obj_archer","order":4,"path":"objects/obj_archer/obj_archer.yy",},
+    {"name":"mus_lose","order":11,"path":"sounds/mus_lose/mus_lose.yy",},
   ],
 }

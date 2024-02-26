@@ -106,7 +106,9 @@
     {"id":{"name":"spr_button_cannon","path":"sprites/spr_button_cannon/spr_button_cannon.yy",},},
     {"id":{"name":"obj_button_knight","path":"objects/obj_button_knight/obj_button_knight.yy",},},
     {"id":{"name":"spr_scatleft","path":"sprites/spr_scatleft/spr_scatleft.yy",},},
+    {"id":{"name":"mus_win","path":"sounds/mus_win/mus_win.yy",},},
     {"id":{"name":"obj_archer","path":"objects/obj_archer/obj_archer.yy",},},
+    {"id":{"name":"mus_lose","path":"sounds/mus_lose/mus_lose.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
   ],
   "RoomOrderNodes": [

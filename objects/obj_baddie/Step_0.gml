@@ -17,7 +17,7 @@ if (x > 328) {
 			instance_deactivate_all(true)
 			instance_activate_object(obj_button_pause)
 			audio_stop_all()
-			audio_play_sound(mus_51,1,0)
+			audio_play_sound(mus_lose,1,0)
 			alarm[1] = -1
 		}
 	}
