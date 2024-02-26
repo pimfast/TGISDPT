@@ -1,6 +1,27 @@
 /// @desc
 
-x += walksp
+walked++;
+if(walked % 32 == 0){
+	realwalked++;
+}
+if( ! is_undefined(global.path[realwalked]) && global.path[realwalked] != 0){
+	dir = global.path[realwalked];
+}
+
+switch(dir){
+	case "U":
+		y -= walksp
+		break;
+	case "R":
+		x += walksp
+		break;
+	case "D":
+		y += walksp;
+		break;
+	case "L":
+		x -= walksp;
+		break;
+}
 
 if (hp <= 0) {
 	instance_destroy()
