@@ -1,0 +1,18 @@
+-------
+enemies (subject to change)
+-------
+
+baddie (normal)
+slug (faster and slightly more damage but less health)
+witch (buffs nearby enemies until dead)
+spider (holds baby spiders that come out when dead)
+baby spider (fast)
+
+----------
+conditions
+----------
+
+invisible (towers can't target unless said otherwise) [half opacity]
+reinforced (towers can target but can't damage unless said otherwise) [metal]
+big (more health and more damage but move speed is halved) [larger]
+massive (much more health and damage but move speed is quartered) [much larger]

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "mus_win",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "ag_mus",
+    "path": "audiogroups/ag_mus",
   },
   "bitDepth": 1,
   "bitRate": 128,

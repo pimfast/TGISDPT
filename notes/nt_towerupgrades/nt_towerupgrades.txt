@@ -1,0 +1,59 @@
+------------------------
+either it's all the same
+------------------------
+
+damage up
+
+attack speed up
+
+range up
+
+pierce up?
+
+-------------------------------------------------
+or all towers can have their own special upgrades
+-------------------------------------------------
+
+ARCHER:
+
+range up -> range up -> great ears (shoots anything in range of a tower) -> MASSIVE range increase
+																			^ or range is entire screen
+??? -> ??? -> sharp arrows (can penetrate reinforced enemies -> ???
+
+??? -> ??? -> keen eyes (can detect and shoot invisible enemies) -> ???
+
+
+CANNON:
+
+explosive -> ??? -> ??? -> ???
+
+pierce -> ??? -> ??? -> ???
+
+heavy balls (pushes enemies back) -> ??? -> ??? -> balls of steel
+
+
+KNIGHT:
+
+range up (from 4 tiles to 8) -> attack speed up -> damage up -> noble steed (moveable with a cooldown)
+			^ or from 1 to 2 if you got range down				^ or shield bash
+attack speed up -> damage up -> damage up -> two swords (default set to target first and last)
+
+attack speed down -> damage up -> range down (to one tile) -> damage waaay up
+												^or two (opposite sides) if you got range up
+
+TAR LAUNCHER:
+
+more tar (stay tarred longer) -> heavy tar (tar removes reinforcements) -> ??? -> ???
+
+stickier tar (slows down more) -> ??? -> ??? -> ???
+
+??? -> ??? -> ??? -> ???
+
+
+WIZARD:
+
+fireball (extra damage to tarred enemies also lights them on fire) -> ??? -> ??? -> ???
+
+magic missile (chases enemies even out of range) -> ??? -> ??? -> ???
+
+support -> ??? -> ??? -> ???

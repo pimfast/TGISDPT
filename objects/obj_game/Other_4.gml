@@ -3,17 +3,19 @@
 audio_stop_all()
 
 if (room == rm_menu) {
-	//audio_play_sound(mus_32,1,1)
+	audio_play_sound(mus_menu,1,1)
 	window_set_cursor(cr_none)
 	exit;
 }
 
 window_set_cursor(cr_default)
-cash = 115
+cash = 190
 defense_points = 10
 
 timetowave = 5
 alarm_set(0,60)
+
+global.waves = []
 
 switch (room) {
 	case rm_level1:
@@ -84,9 +86,14 @@ switch (room) {
 		array_set(global.wave5, 0, "bigbaddie");
 		array_set(global.wave5, 2, "bigbaddie");
 		array_set(global.wave5, 4, "bigbaddie");
+		
+		array_push(
+			global.waves, 
+			global.wave1,global.wave2,global.wave3,global.wave4,global.wave5
+		)
         break;
 }
 
 enemynumber = 0
 selectedenemy = 0
-currentwave = global.wave1
+currentwave = array_first(global.waves)

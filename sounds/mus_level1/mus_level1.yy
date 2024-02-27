@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "mus_level1",
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "ag_mus",
+    "path": "audiogroups/ag_mus",
   },
   "bitDepth": 1,
   "bitRate": 128,
@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "mus_level1.mp3",
   "type": 0,
-  "volume": 0.5,
+  "volume": 1.0,
 }

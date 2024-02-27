@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_sawold",
-    "path": "sprites/spr_sawold/spr_sawold.yy",
+    "name": "spr_saw",
+    "path": "sprites/spr_saw/spr_saw.yy",
   },
   "spriteMaskId": null,
   "visible": true,

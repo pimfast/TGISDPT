@@ -16,7 +16,7 @@ if ( ! is_undefined(currentwave[enemynumber]) && currentwave[enemynumber] != 0){
 			break;
 	}
 } 
-alarm_set(1,60)
+alarm_set(1,gamespeed_microseconds*30)
 //else {
 //	currentwave++
 //	if (currentwave == 6) {

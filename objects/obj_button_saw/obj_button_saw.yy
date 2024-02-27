@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_button_sawold",
-    "path": "sprites/spr_button_sawold/spr_button_sawold.yy",
+    "name": "spr_buttonsaw",
+    "path": "sprites/spr_buttonsaw/spr_buttonsaw.yy",
   },
   "spriteMaskId": null,
   "visible": true,
