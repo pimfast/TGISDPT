@@ -1,9 +1,10 @@
 /// @desc create monster
 
-enemynumber++
-
-if ( ! is_undefined(currentwave[enemynumber]) && currentwave[enemynumber] != 0){
-	selectedenemy = currentwave[enemynumber]
+if (!is_undefined(enemynumber+1)) {
+	enemynumber++
+}
+if (enemynumber <= array_length(currentwave)){
+	selectedenemy = array_get(currentwave,enemynumber)
 	switch (selectedenemy) {
 		case "baddie":
 			instance_create_layer(-8,72,"Instances",obj_baddie)
@@ -14,9 +15,12 @@ if ( ! is_undefined(currentwave[enemynumber]) && currentwave[enemynumber] != 0){
 		case "slug":
 			instance_create_layer(-8,72,"Instances",obj_slug)
 			break;
+		case 0:
+			break;
 	}
-} 
-alarm_set(1,gamespeed_microseconds*30)
+	alarm_set(1,gamespeed_microseconds*30) 
+}
+
 //else {
 //	currentwave++
 //	if (currentwave == 6) {

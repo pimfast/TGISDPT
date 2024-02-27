@@ -45,6 +45,10 @@ switch (room) {
 		array_set(global.wave1, 6, "baddie");
 		array_set(global.wave1, 8, "baddie");
 		array_set(global.wave1, 10, "baddie");
+		array_set(global.wave1, 12, "baddie");
+		array_set(global.wave1, 14, "baddie");
+		array_set(global.wave1, 16, "baddie");
+		array_set(global.wave1, 18, "baddie");
 		
 		global.wave2 = []
 		array_set(global.wave2, 0, "baddie");

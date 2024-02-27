@@ -4,10 +4,15 @@ draw_set_font(fnt_1)
 
 if (room != rm_menu) {
 	draw_set_halign(fa_right)
+	draw_set_valign(fa_top)
 	draw_text_color(300,10,"Cash: "+string(cash),c_purple,c_purple,c_purple,c_purple,1)
 	draw_text_color(300,20,"HP: "+string(defense_points),c_purple,c_purple,c_purple,c_purple,1)
+	draw_text_color(300,30,string(currentwave)+"/"+string(array_length(global.waves)),c_black,c_black,c_black,c_black,1)
+	
 	if (!is_undefined(selectedtower)) {
-		draw_circle(selectedtower.x+sprite_width/2,selectedtower.y+sprite_height/2,obj_towerparent.attack_range,false)
+		draw_set_alpha(0.5)
+		draw_circle_color(selectedtower.x+sprite_width/2,selectedtower.y+sprite_height/2,obj_towerparent.attack_range,c_black,c_black,false)
+		draw_set_alpha(1)
 	}
 	
 	if (timetowave > 0) {

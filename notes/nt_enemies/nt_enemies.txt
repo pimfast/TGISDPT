@@ -8,11 +8,24 @@ witch (buffs nearby enemies until dead)
 spider (holds baby spiders that come out when dead)
 baby spider (fast)
 
-----------
-conditions
-----------
+-----
+buffs
+-----
 
 invisible (towers can't target unless said otherwise) [half opacity]
 reinforced (towers can target but can't damage unless said otherwise) [metal]
 big (more health and more damage but move speed is halved) [larger]
 massive (much more health and damage but move speed is quartered) [much larger]
+colossal (triple normal health and damage values but move speed is 0.125%) [fuggin big, man]
+momma(?) (holds other enemies inside)
+
+-------
+debuffs
+-------
+
+tarred (move slower for a bit)
+aflame (take damage every second for a bit)
+dizzy (move backwards for a bit)
+poisoned(?) (same as aflame but transfers to any children)
+stunned (don't move for a bit)
+hypnotized (same as dizzy but fights enemies along the way)

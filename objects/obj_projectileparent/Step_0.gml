@@ -1,10 +1,29 @@
 /// @desc
 
 if (instance_exists(target)) {
-	if (x > target.x) {x -= 1}
-	if (x < target.x) {x += 1}
-	if (y > target.y) {y -= 1}
-	if (y < target.y) {y += 1}
+	if (x > target.x) {x -= proj_speed}
+	if (x < target.x) {x += proj_speed}
+	if (y > target.y) {y -= proj_speed}
+	if (y < target.y) {y += proj_speed}
 } else {
-	instance_destroy()
+	if (!instance_exists(obj_enemyparent)) {
+		instance_destroy()
+	}
+	switch (dir) {
+	    case "L":
+	        x -= proj_speed
+	        break;
+	    case "R":
+	        x += proj_speed
+	        break;
+	    case "U":
+	        y += proj_speed
+	        break;
+	    case "D":
+	        y -= proj_speed
+	        break;
+		default:
+		
+			break;
+	}
 }

@@ -8,34 +8,38 @@ attack speed up
 
 range up
 
-pierce up?
+pierce up(?)
 
 -------------------------------------------------
 or all towers can have their own special upgrades
+(after spending in two upgrade trees, it locks
+the remaining one. after getting any tree to
+the third level, it locks the other one to
+just the first two levels)
 -------------------------------------------------
 
 ARCHER:
 
-range up -> range up -> great ears (shoots anything in range of a tower) -> MASSIVE range increase
-																			^ or range is entire screen
-??? -> ??? -> sharp arrows (can penetrate reinforced enemies -> ???
+range up -> range up and faster arrows -> great ears (shoots anything in range of a tower) -> archer tower (MASSIVE range increase)
+																								^ or range is entire screen
+attack speed up -> keen eyes (detect and shoot invisible enemies) -> smart targeting -> twin shot (2 arrows per shot)
 
-??? -> ??? -> keen eyes (can detect and shoot invisible enemies) -> ???
+dmg up -> poison-tipped arrows -> dmg up + extra dmg to big enemies -> sharp arrows (penetrate reinforced enemies)
 
 
 CANNON:
 
-explosive -> ??? -> ??? -> ???
+explosive (damage reinforced enemies) -> ??? -> ??? -> ???
 
-pierce -> ??? -> ??? -> ???
+light balls (stays in air longer) -> fires twice per shot -> pierce -> double-sided (fires behind as well)
 
-heavy balls (pushes enemies back) -> ??? -> ??? -> balls of steel
+dmg up -> dmg up but slower attack speed -> heavy balls (pushes enemies back) -> balls of steel (more damage and pushes back further)
 
 
 KNIGHT:
 
 range up (from 4 tiles to 8) -> attack speed up -> damage up -> noble steed (moveable with a cooldown)
-			^ or from 1 to 2 if you got range down				^ or shield bash
+			^ or from 1 to 2 if you got range down				^ or shield bash (dizzies enemies)
 attack speed up -> damage up -> damage up -> two swords (default set to target first and last)
 
 attack speed down -> damage up -> range down (to one tile) -> damage waaay up
@@ -43,17 +47,17 @@ attack speed down -> damage up -> range down (to one tile) -> damage waaay up
 
 TAR LAUNCHER:
 
-more tar (stay tarred longer) -> heavy tar (tar removes reinforcements) -> ??? -> ???
+more tar (stay tarred longer) -> attack speed up -> ??? -> ???
 
-stickier tar (slows down more) -> ??? -> ??? -> ???
+sticky tar (slows down more) -> range up -> ??? -> heavy tar (dizzies targets)
 
-??? -> ??? -> ??? -> ???
+chunky tar (damages enemies) -> ??? -> dmg up -> acid tar (tar removes reinforcements)
 
 
 WIZARD:
 
-fireball (extra damage to tarred enemies also lights them on fire) -> ??? -> ??? -> ???
+fireball (extra damage to tarred enemies also lights them on fire) -> dmg up -> fire tornado (emits a ring of fire every once in a while) -> ???
 
-magic missile (chases enemies even out of range) -> ??? -> ??? -> ???
+magic missile (chases enemies even out of range) -> range up -> ??? -> ???
 
-support -> ??? -> ??? -> ???
+fly ([sunglasses] towers in range power up) -> generate a little cash every round -> super senses (supported towers can target and damage anything but disables self's attack) -> supported tower damage and attack speed up
