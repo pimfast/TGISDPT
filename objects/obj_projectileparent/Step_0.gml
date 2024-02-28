@@ -17,10 +17,10 @@ if (instance_exists(target)) {
 	        x += proj_speed
 	        break;
 	    case "U":
-	        y += proj_speed
+	        y -= proj_speed
 	        break;
 	    case "D":
-	        y -= proj_speed
+	        y += proj_speed
 	        break;
 		default:
 		

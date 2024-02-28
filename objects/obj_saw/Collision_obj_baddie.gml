@@ -6,7 +6,7 @@ if (disabled == false) {
 		audio_play_sound(sfx_bworm,1,0)
 
 		if (other.hp <= 0) {
-			obj_game.cash += obj_baddie.value
+			obj_game.cash += obj_baddie.cashvalue
 			audio_play_sound(sfx_bworm,1,0)
 		}
 		disabled = true

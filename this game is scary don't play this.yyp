@@ -48,6 +48,7 @@
   },
   "resources": [
     {"id":{"name":"obj_button_ff","path":"objects/obj_button_ff/obj_button_ff.yy",},},
+    {"id":{"name":"obj_button_teleport","path":"objects/obj_button_teleport/obj_button_teleport.yy",},},
     {"id":{"name":"mus_12","path":"sounds/mus_12/mus_12.yy",},},
     {"id":{"name":"spr_cannonleft","path":"sprites/spr_cannonleft/spr_cannonleft.yy",},},
     {"id":{"name":"spr_cannondownold","path":"sprites/spr_cannondownold/spr_cannondownold.yy",},},
@@ -55,6 +56,7 @@
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"obj_knight","path":"objects/obj_knight/obj_knight.yy",},},
     {"id":{"name":"spr_button_archer","path":"sprites/spr_button_archer/spr_button_archer.yy",},},
+    {"id":{"name":"obj_button_sell","path":"objects/obj_button_sell/obj_button_sell.yy",},},
     {"id":{"name":"spr_button_wizard","path":"sprites/spr_button_wizard/spr_button_wizard.yy",},},
     {"id":{"name":"spr_saw","path":"sprites/spr_saw/spr_saw.yy",},},
     {"id":{"name":"spr_spider","path":"sprites/spr_spider/spr_spider.yy",},},
@@ -114,6 +116,7 @@
     {"id":{"name":"mus_menu","path":"sounds/mus_menu/mus_menu.yy",},},
     {"id":{"name":"obj_baddie","path":"objects/obj_baddie/obj_baddie.yy",},},
     {"id":{"name":"spr_arrow","path":"sprites/spr_arrow/spr_arrow.yy",},},
+    {"id":{"name":"obj_button_rotate","path":"objects/obj_button_rotate/obj_button_rotate.yy",},},
     {"id":{"name":"obj_button_saw","path":"objects/obj_button_saw/obj_button_saw.yy",},},
     {"id":{"name":"mus_27","path":"sounds/mus_27/mus_27.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
@@ -125,7 +128,6 @@
     {"id":{"name":"spr_scatup","path":"sprites/spr_scatup/spr_scatup.yy",},},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
-    {"id":{"name":"rm_level3","path":"rooms/rm_level3/rm_level3.yy",},},
     {"id":{"name":"spr_knight","path":"sprites/spr_knight/spr_knight.yy",},},
     {"id":{"name":"obj_projectileparent","path":"objects/obj_projectileparent/obj_projectileparent.yy",},},
     {"id":{"name":"mus_22","path":"sounds/mus_22/mus_22.yy",},},
@@ -133,6 +135,7 @@
     {"id":{"name":"obj_button_pause","path":"objects/obj_button_pause/obj_button_pause.yy",},},
     {"id":{"name":"obj_button_cannon","path":"objects/obj_button_cannon/obj_button_cannon.yy",},},
     {"id":{"name":"spr_button_sawold","path":"sprites/spr_button_sawold/spr_button_sawold.yy",},},
+    {"id":{"name":"obj_button_upgrade","path":"objects/obj_button_upgrade/obj_button_upgrade.yy",},},
     {"id":{"name":"spr_button_cannon","path":"sprites/spr_button_cannon/spr_button_cannon.yy",},},
     {"id":{"name":"obj_button_knight","path":"objects/obj_button_knight/obj_button_knight.yy",},},
     {"id":{"name":"spr_scatleft","path":"sprites/spr_scatleft/spr_scatleft.yy",},},
@@ -144,7 +147,6 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
-    {"roomId":{"name":"rm_level3","path":"rooms/rm_level3/rm_level3.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

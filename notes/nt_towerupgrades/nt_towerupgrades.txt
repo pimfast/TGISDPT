@@ -18,7 +18,7 @@ the third level, it locks the other one to
 just the first two levels)
 -------------------------------------------------
 
-ARCHER:
+ARCHER: shoots arrows at enemies in range
 
 range up -> range up and faster arrows -> great ears (shoots anything in range of a tower) -> archer tower (MASSIVE range increase)
 																								^ or range is entire screen
@@ -27,37 +27,37 @@ attack speed up -> keen eyes (detect and shoot invisible enemies) -> smart targe
 dmg up -> poison-tipped arrows -> dmg up + extra dmg to big enemies -> sharp arrows (penetrate reinforced enemies)
 
 
-CANNON:
+CANNON: shoots in a straight line, can rotate it before placing or pay to rotate it clockwise/counterclockwise after placement
 
-explosive (damage reinforced enemies) -> ??? -> ??? -> ???
+explosive (explode and damage reinforced enemies) -> explosion radius increase -> expansion (double size of both self and projectiles also dmg up) -> big balls (triple size and damage)
 
-light balls (stays in air longer) -> fires twice per shot -> pierce -> double-sided (fires behind as well)
+light balls (stays in air longer) -> attack speed up -> pierce -> double-sided (fires behind as well)
 
 dmg up -> dmg up but slower attack speed -> heavy balls (pushes enemies back) -> balls of steel (more damage and pushes back further)
 
 
-KNIGHT:
+KNIGHT: range is limited to specifically the 4 tiles surrounding him so instead of a circle it's more of a plus
 
 range up (from 4 tiles to 8) -> attack speed up -> damage up -> noble steed (moveable with a cooldown)
 			^ or from 1 to 2 if you got range down				^ or shield bash (dizzies enemies)
 attack speed up -> damage up -> damage up -> two swords (default set to target first and last)
 
-attack speed down -> damage up -> range down (to one tile) -> damage waaay up
+attack speed down -> damage much up -> range down (to one tile) -> damage waaay up
 												^or two (opposite sides) if you got range up
 
-TAR LAUNCHER:
+TAR LAUNCHER: like archer but deals no damage and slows enemies
 
-more tar (stay tarred longer) -> attack speed up -> ??? -> ???
+more tar (stay tarred longer) -> attack speed up -> explosive tar -> quantum tar (pierces enemies)
 
-sticky tar (slows down more) -> range up -> ??? -> heavy tar (dizzies targets)
+sticky tar (slows down more) -> range up -> icky tar (slows down more) -> heavy tar (dizzies targets)
 
-chunky tar (damages enemies) -> ??? -> dmg up -> acid tar (tar removes reinforcements)
+chunky tar (damages enemies) -> dmg up -> poison tar (poisons enemies) -> acid tar (tar removes reinforcements)
 
 
-WIZARD:
+WIZARD: like archer but can pay to teleport to another location
 
-fireball (extra damage to tarred enemies also lights them on fire) -> dmg up -> fire tornado (emits a ring of fire every once in a while) -> ???
+fireball (occasionally extra damage to tarred enemies also lights them on fire) -> dmg up -> malice (attacks poison enemies) -> fire tornado (emits a ring of fire every once in a while)
 
-magic missile (chases enemies even out of range) -> range up -> ??? -> ???
+magic missile (chases enemies even out of range) -> range up -> ZAP! (attacks stun enemies) -> pocket watch (occasionally hypnotizes an enemy)
 
 fly ([sunglasses] towers in range power up) -> generate a little cash every round -> super senses (supported towers can target and damage anything but disables self's attack) -> supported tower damage and attack speed up

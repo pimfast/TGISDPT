@@ -3,14 +3,16 @@
 audio_stop_all()
 
 if (room == rm_menu) {
+	audio_group_load(ag_mus)
+	audio_group_load(ag_sfx)
 	audio_play_sound(mus_menu,1,1)
 	window_set_cursor(cr_none)
 	exit;
 }
 
 window_set_cursor(cr_default)
-cash = 190
-defense_points = 10
+cash = 180
+defense_points = 1
 
 timetowave = 5
 alarm_set(0,60)
@@ -104,5 +106,5 @@ switch (room) {
 }
 
 enemynumber = 0
-selectedenemy = 0
+chosenenemy = 0
 currentwave = array_first(global.waves)

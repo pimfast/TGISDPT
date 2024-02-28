@@ -41,9 +41,11 @@ if (mouse_x < 160 || mouse_y < 160) {
 			global.heldtower = ""
 			//cursor_sprite = spr_wizard
 			break;
-	    default:
-	        //do nothing
-	        break;
+		case "":
+			if (instance_place(mouse_x,mouse_y,obj_towerparent)) {
+				obj_game.selectedtower = undefined
+			}
+			break;
 	}
 	window_set_cursor(cr_default)
 	cursor_sprite = -1

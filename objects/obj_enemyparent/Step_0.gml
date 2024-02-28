@@ -25,11 +25,10 @@ switch(dir){
 		//made it to goal
 		audio_play_sound(sfx_bwam,1,0,5)
 		obj_game.defense_points -= damage
-		obj_game.cash += value
+		obj_game.cash += cashvalue
 		with (obj_game) {
 			if (defense_points <= 0) {
-				instance_deactivate_all(true)
-				instance_activate_object(obj_button_pause)
+				instance_deactivate_object(obj_enemyparent)
 				obj_game.alarm[1] = -1
 				audio_stop_all()
 				audio_play_sound(mus_lose,1,0)

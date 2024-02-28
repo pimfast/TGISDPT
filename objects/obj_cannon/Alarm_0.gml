@@ -1,6 +1,6 @@
 /// @desc
 
-if (instance_exists(obj_baddie)) {
+if (instance_exists(obj_enemyparent)) {
 	var cannonball = instance_create_layer(x+(sprite_width/2),y+(sprite_height/2),"Instances",obj_cannonball)
 	cannonball.target = undefined
 	cannonball.damage = attack_power

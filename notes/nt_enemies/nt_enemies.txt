@@ -14,10 +14,11 @@ buffs
 
 invisible (towers can't target unless said otherwise) [half opacity]
 reinforced (towers can target but can't damage unless said otherwise) [metal]
-big (more health and more damage but move speed is halved) [larger]
-massive (much more health and damage but move speed is quartered) [much larger]
-colossal (triple normal health and damage values but move speed is 0.125%) [fuggin big, man]
-momma(?) (holds other enemies inside)
+big (double health and damage) [larger and animation speed is halved]
+massive (triple health and damage) [much larger and animation speed is quartered]
+colossal (quadruple health and damage) [fuggin big, man and animation speed is 0.125%]
+momma(?) (release specified enemies upon death) [enemies in middle of sprite]
+buttered (double speed) [double animation speed]
 
 -------
 debuffs
