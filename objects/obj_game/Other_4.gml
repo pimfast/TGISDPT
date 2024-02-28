@@ -49,6 +49,7 @@ switch (room) {
 		array_set(global.wave1, 14, "baddie");
 		array_set(global.wave1, 16, "baddie");
 		array_set(global.wave1, 18, "baddie");
+		array_push(global.wave1, "END");
 		
 		global.wave2 = []
 		array_set(global.wave2, 0, "baddie");
@@ -62,12 +63,14 @@ switch (room) {
 		array_set(global.wave2, 8, "baddie");
 		array_set(global.wave2, 9, "slug");
 		array_set(global.wave2, 10, "baddie");
+		array_push(global.wave2, "END");
 		
 		global.wave3 = []
 		array_set(global.wave3, 0, "baddie");
 		array_set(global.wave3, 2, "baddie");
 		array_set(global.wave3, 4, "baddie");
 		array_set(global.wave3, 6, "bigbaddie");
+		array_push(global.wave3, "END");
 		
 		global.wave4 = []
 		array_set(global.wave4, 0, "slug");
@@ -85,11 +88,13 @@ switch (room) {
 		array_set(global.wave4, 17, "slug");
 		array_set(global.wave4, 18, "slug");
 		array_set(global.wave4, 19, "slug");
+		array_push(global.wave4, "END");
 		
 		global.wave5 = []
 		array_set(global.wave5, 0, "bigbaddie");
 		array_set(global.wave5, 2, "bigbaddie");
 		array_set(global.wave5, 4, "bigbaddie");
+		array_push(global.wave5, "END");
 		
 		array_push(
 			global.waves, 
