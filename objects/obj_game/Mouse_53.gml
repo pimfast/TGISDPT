@@ -53,7 +53,7 @@ if (mouse_x < 160 || mouse_y < 160) {
 		}
 	} else {
 		// beep, error
-		if (selectedtower != undefined) {audio_play_sound(sfx_err,1,0)}
+		if (selectedtower == undefined) && (global.heldtower != "") {audio_play_sound(sfx_err,1,0)}
 	}
 	
 	window_set_cursor(cr_default)
