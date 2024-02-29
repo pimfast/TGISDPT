@@ -2,9 +2,9 @@
 
 towervalue = obj_button_saw.itemprice
 
-attack_power = 0.5
+attack_power = 0.75
 attack_speed = 1
-attack_range = 5
+attack_range = 0
 disabled = false
 tbdisabled = false
 

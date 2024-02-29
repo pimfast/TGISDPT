@@ -3,7 +3,7 @@
 towervalue = obj_button_archer.itemprice
 
 attack_power = 1
-attack_speed = 1
+attack_speed = 0.75
 attack_range = 48
 
 proj_speed = 1

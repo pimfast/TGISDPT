@@ -2,12 +2,10 @@
 
 other.hp -= damage
 
-audio_play_sound(sfx_bworm,1,0)
-
 if (other.hp <= 0) {
-	obj_game.cash += other.cashvalue
-	audio_play_sound(sfx_bworm,1,0)
 	instance_destroy(other)
+} else {
+	instance_create_layer(x,y,"Instances",obj_hiteffect)
 }
 
 instance_destroy()

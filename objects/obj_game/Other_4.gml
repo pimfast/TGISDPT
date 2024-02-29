@@ -27,7 +27,7 @@ switch (room) {
 		
 		// initial occupied tiles on the map grid 20x12 0=empty 1=occupied
 		global.occupied = [];
-		global.occupied[0]  = [1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+		global.occupied[0]  = [1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0];
 		global.occupied[1]  = [1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 		global.occupied[2]  = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 		global.occupied[3]  = [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0];

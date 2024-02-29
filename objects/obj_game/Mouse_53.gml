@@ -55,7 +55,7 @@ if (mouse_x < 160 || mouse_y < 160) {
 		// beep, error
 		if (selectedtower == undefined) && (global.heldtower != "") {audio_play_sound(sfx_err,1,0)}
 	}
-	
+	global.heldtower = ""
 	window_set_cursor(cr_default)
 	cursor_sprite = -1
 }

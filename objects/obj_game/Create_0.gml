@@ -2,6 +2,8 @@
 
 global.paused = false
 global.fastforward = false
+global.music_muted = false
+global.sfx_muted = false
 global.heldtower = ""
 global.occupied = [];
 

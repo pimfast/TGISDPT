@@ -28,11 +28,11 @@ if (room != rm_menu) {
 			var towerteleportbutton = instance_create_layer(selectedtower.x+(selectedtower.sprite_width/2)-25,selectedtower.y+(selectedtower.sprite_height/2),"Instances",obj_button_teleport)
 			towerteleportbutton.assignedtower = selectedtower
 			
-			var towerupgradebuttonA = instance_create_layer(selectedtower.x+(selectedtower.sprite_width/2)-20,selectedtower.y+(selectedtower.sprite_height/2)-23,"Instances",obj_button_upgradeA)
+			var towerupgradebuttonA = instance_create_layer(selectedtower.x+(selectedtower.sprite_width/2)-20,selectedtower.y+(selectedtower.sprite_height/2)-22,"Instances",obj_button_upgradeA)
 			towerupgradebuttonA.assignedtower = selectedtower
 			var towerupgradebuttonB = instance_create_layer(selectedtower.x+(selectedtower.sprite_width/2),selectedtower.y+(selectedtower.sprite_height/2)-25,"Instances",obj_button_upgradeB)
 			towerupgradebuttonB.assignedtower = selectedtower
-			var towerupgradebuttonC = instance_create_layer(selectedtower.x+(selectedtower.sprite_width/2)+20,selectedtower.y+(selectedtower.sprite_height/2)-23,"Instances",obj_button_upgradeC)
+			var towerupgradebuttonC = instance_create_layer(selectedtower.x+(selectedtower.sprite_width/2)+20,selectedtower.y+(selectedtower.sprite_height/2)-22,"Instances",obj_button_upgradeC)
 			towerupgradebuttonC.assignedtower = selectedtower
 		}
 	}
