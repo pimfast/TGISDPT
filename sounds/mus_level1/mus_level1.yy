@@ -3,14 +3,14 @@
   "resourceVersion": "1.0",
   "name": "mus_level1",
   "audioGroupId": {
-    "name": "ag_mus",
-    "path": "audiogroups/ag_mus",
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default",
   },
   "bitDepth": 1,
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 64.47017,
+  "duration": 80.58775,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

@@ -23,7 +23,7 @@ global.waves = []
 
 switch (room) {
 	case rm_level1:
-		music = audio_play_sound(TGI_SCARY_DPT__level1___1_,1,0);
+		music = audio_play_sound(mus_level1,1,0);
 		
 		// initial occupied tiles on the map grid 20x12 0=empty 1=occupied
 		global.occupied = [];
@@ -97,6 +97,7 @@ switch (room) {
 		array_set(global.wave4, 2, "slug");
 		array_set(global.wave4, 3, "slug");
 		array_set(global.wave4, 4, "slug");
+		array_set(global.wave4, 5, "bigbaddie");
 		array_set(global.wave4, 10, "slug");
 		array_set(global.wave4, 11, "slug");
 		array_set(global.wave4, 12, "slug");
@@ -113,6 +114,10 @@ switch (room) {
 		array_set(global.wave5, 0, "bigbaddie");
 		array_set(global.wave5, 2, "bigbaddie");
 		array_set(global.wave5, 4, "bigbaddie");
+		array_set(global.wave5, 6, "bigbaddie");
+		array_set(global.wave5, 8, "bigbaddie");
+		array_set(global.wave5, 10, "bigbaddie");
+		array_set(global.wave5, 12, "baddie");
 		array_push(global.wave5, "END");
 		
 		array_push(

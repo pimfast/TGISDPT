@@ -32,6 +32,7 @@ if (!is_undefined(enemynumber) && !is_undefined(currentwave)){
 				alarm_set(0,-1)
 				timetowave = 0
 				iamagoodprogrammer = false;
+				exit;
 			}
 			break;
 	}
