@@ -26,6 +26,7 @@
     {"name":"select","order":11,"path":"folders/Sprites/buttons/select.yy",},
     {"name":"archer upgrades","order":7,"path":"folders/Sprites/buttons/select/archer upgrades.yy",},
     {"name":"cannon upgrades","order":8,"path":"folders/Sprites/buttons/select/cannon upgrades.yy",},
+    {"name":"general upgrades","order":13,"path":"folders/Sprites/buttons/select/general upgrades.yy",},
     {"name":"knight upgrades","order":9,"path":"folders/Sprites/buttons/select/knight upgrades.yy",},
     {"name":"tar launcher upgrades","order":10,"path":"folders/Sprites/buttons/select/tar launcher upgrades.yy",},
     {"name":"wizard upgrades","order":11,"path":"folders/Sprites/buttons/select/wizard upgrades.yy",},
@@ -35,7 +36,6 @@
     {"name":"towers","order":8,"path":"folders/Sprites/towers.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"general upgrades","order":13,"path":"folders/Sprites/buttons/select/general upgrades.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_button_ff","order":1,"path":"objects/obj_button_ff/obj_button_ff.yy",},

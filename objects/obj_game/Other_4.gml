@@ -25,6 +25,21 @@ switch (room) {
 	case rm_level1:
 		music = audio_play_sound(TGI_SCARY_DPT__level1___1_,1,0);
 		
+		// initial occupied tiles on the map grid 20x12 0=empty 1=occupied
+		global.occupied = [];
+		global.occupied[0]  = [1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+		global.occupied[1]  = [1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+		global.occupied[2]  = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+		global.occupied[3]  = [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0];
+		global.occupied[4]  = [1,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,1,1,1];
+		global.occupied[5]  = [0,0,0,0,1,0,0,0,0,1,1,1,1,0,0,1,0,1,0,0];
+		global.occupied[6]  = [0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0];
+		global.occupied[7]  = [0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0];
+		global.occupied[8]  = [1,0,0,0,1,1,1,0,1,1,1,1,1,0,0,1,1,1,0,0];
+		global.occupied[9]  = [1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0];
+		global.occupied[10] = [1,1,1,0,0,0,1,1,1,0,1,1,1,1,1,1,1,1,1,1];
+		global.occupied[11] = [1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1];
+
 		global.path = [];
 		array_set(global.path, 5, "D");
 		array_set(global.path, 9, "R");
@@ -109,5 +124,10 @@ switch (room) {
 
 enemynumber = 0
 chosenenemy = 0
+<<<<<<< HEAD
 currentwave = 0; //array_first(global.waves);
 selectedtower = undefined
+=======
+currentwave = 0
+
+>>>>>>> f37e8d85d34a2483433601157994ebfd9c912ca2
