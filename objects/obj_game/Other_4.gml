@@ -3,6 +3,8 @@
 audio_stop_all()
 
 if (room == rm_menu) {
+	alarm_set(0,-1)
+	alarm_set(1,-1)
 	audio_group_load(ag_mus)
 	audio_group_load(ag_sfx)
 	audio_play_sound(mus_menu,1,1)
