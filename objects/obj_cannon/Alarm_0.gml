@@ -8,4 +8,4 @@ if (instance_exists(obj_enemyparent)) {
 	cannonball.proj_speed = proj_speed
 }
 
-alarm_set(0,gamespeed_microseconds*60)
+alarm_set(0,gamespeed_microseconds*(60/attack_speed))

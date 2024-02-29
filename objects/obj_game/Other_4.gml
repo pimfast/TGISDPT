@@ -12,7 +12,7 @@ if (room == rm_menu) {
 
 window_set_cursor(cr_default)
 cash = 180
-defense_points = 1
+defense_points = 10
 
 timetowave = 5
 alarm_set(0,60)
