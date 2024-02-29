@@ -11,40 +11,7 @@ if (mouse_x < 160 || mouse_y < 160) {
 	// grid = 16
 	tower_x = floor(mouse_x/16) * 16;
 	tower_y = floor(mouse_y/16) * 16;
-<<<<<<< HEAD
-	switch (global.heldtower) {
-	    case "archer":
-			instance_create_layer(tower_x,tower_y,"Instances",obj_archer)
-			obj_game.cash -= obj_button_archer.itemprice
-			global.heldtower = ""
-	        break;
-		case "cannon":
-			instance_create_layer(tower_x,tower_y,"Instances",obj_cannon)
-			obj_game.cash -= obj_button_cannon.itemprice
-			global.heldtower = ""
-			//cursor_sprite = spr_cannon
-			break;
-		case "knight":
-			instance_create_layer(tower_x,tower_y,"Instances",obj_knight)
-			obj_game.cash -= obj_button_knight.itemprice
-			global.heldtower = ""
-			//cursor_sprite = spr_knight
-			break;
-		case "saw":
-			instance_create_layer(tower_x,tower_y,"Instances",obj_saw)
-			obj_game.cash -= obj_button_saw.itemprice
-			global.heldtower = ""
-			//cursor_sprite = spr_saw
-			break;
-		case "wizard":
-			instance_create_layer(tower_x,tower_y,"Instances",obj_wizard)
-			obj_game.cash -= obj_button_wizard.itemprice
-			global.heldtower = ""
-			//cursor_sprite = spr_wizard
-			break;
-		case "":
-			break;
-=======
+	
 	// is this location occupied?
 	if( ! isOccupied(tower_x, tower_y)){
 		switch (global.heldtower) {
@@ -84,13 +51,11 @@ if (mouse_x < 160 || mouse_y < 160) {
 				}
 				break;
 		}
->>>>>>> f37e8d85d34a2483433601157994ebfd9c912ca2
-	}
-	else{
+	} else {
 		// beep, error
+		if (selectedtower != undefined) {audio_play_sound(sfx_err,1,0)}
 	}
 	
 	window_set_cursor(cr_default)
 	cursor_sprite = -1
 }
-

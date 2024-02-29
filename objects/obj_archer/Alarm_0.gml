@@ -5,6 +5,8 @@ if (instance_exists(obj_enemyparent)) {
 		var arrow = instance_create_layer(x+(sprite_width/2),y+(sprite_height/2),"Instances",obj_arrow)
 		arrow.target = obj_enemyparent
 		arrow.damage = attack_power
+		
+		arrow.proj_speed = proj_speed
 	//}
 }
 

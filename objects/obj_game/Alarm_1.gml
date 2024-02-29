@@ -37,6 +37,6 @@ if (!is_undefined(enemynumber) && !is_undefined(currentwave)){
 	}
 }
 
-if (enemynumber < array_length(global.waves[currentwave])) {
+if (enemynumber <= array_length(global.waves[currentwave])) {
 	enemynumber++
 }

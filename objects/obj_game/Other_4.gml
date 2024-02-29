@@ -124,10 +124,10 @@ switch (room) {
 
 enemynumber = 0
 chosenenemy = 0
-<<<<<<< HEAD
+
 currentwave = 0; //array_first(global.waves);
 selectedtower = undefined
-=======
+
 currentwave = 0
 
->>>>>>> f37e8d85d34a2483433601157994ebfd9c912ca2
+

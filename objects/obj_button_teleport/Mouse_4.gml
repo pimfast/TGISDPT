@@ -1,5 +1,5 @@
 /// @desc
 
-//psuedo code
-obj_game.cash -= 40
-selectedtower = teleportmode
+if (obj_game.cash >= cost) {
+	selectedtower.teleportmode = true
+}

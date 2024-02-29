@@ -5,11 +5,11 @@ global.fastforward = false
 global.heldtower = ""
 global.occupied = [];
 
-<<<<<<< HEAD
+
 //initialize upgrade specifications
 global.archerupgradetreeA = []
 global.archerupgradetreeB = []
-=======
+
 selectedtower = undefined
 
 /**
@@ -44,4 +44,4 @@ function occupy(x, y)
 	var grid_y = floor(y/16);
 	global.occupied[grid_y][grid_x] = 1;
 }
->>>>>>> f37e8d85d34a2483433601157994ebfd9c912ca2
+
