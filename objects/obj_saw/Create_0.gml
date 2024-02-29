@@ -1,6 +1,8 @@
 /// @desc
 
-attack_power = 1
+towervalue = obj_button_saw.itemprice
+
+attack_power = 0.5
 attack_speed = 1
 attack_range = 5
 disabled = false

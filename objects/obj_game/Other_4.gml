@@ -23,7 +23,7 @@ global.waves = []
 
 switch (room) {
 	case rm_level1:
-		audio_play_sound(mus_level1,1,1);
+		music = audio_play_sound(TGI_SCARY_DPT__level1___1_,1,0);
 		
 		global.path = [];
 		array_set(global.path, 5, "D");
@@ -110,4 +110,4 @@ switch (room) {
 enemynumber = 0
 chosenenemy = 0
 currentwave = 0; //array_first(global.waves);
-
+selectedtower = undefined

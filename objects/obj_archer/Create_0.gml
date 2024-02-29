@@ -1,5 +1,7 @@
 /// @desc
 
+towervalue = obj_button_archer.itemprice
+
 attack_power = 1
 attack_speed = 1
 attack_range = 48

@@ -5,6 +5,10 @@
 
 switch (room) {
 	case rm_level1:
+		var _pos = audio_sound_get_track_position(music)
+		if (_pos > 77.35) {
+				music = audio_play_sound(TGI_SCARY_DPT__level1___1_,1,0);
+		}
 		if (keyboard_check_pressed(vk_space)) {
 			room_goto_previous()
 		}

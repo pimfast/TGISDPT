@@ -1,5 +1,5 @@
 /// @desc
 
-//not real code but something like this
-obj_game.cash += selectedtower.itemprice/2
-instance_destroy(selectedtower)
+obj_game.cash += assignedtower.towervalue*0.4
+instance_destroy(assignedtower)
+instance_destroy(obj_toweroptionsbuttonparent)

@@ -1,9 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_button_upgrade",
+  "name": "obj_button_rotatecw",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -11,7 +13,10 @@
     "name": "select",
     "path": "folders/Objects/buttons/select.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_toweroptionsbuttonparent",
+    "path": "objects/obj_toweroptionsbuttonparent/obj_toweroptionsbuttonparent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_button_upgradeA",
-    "path": "sprites/spr_button_upgradeA/spr_button_upgradeA.yy",
+    "name": "spr_button_rotatecw",
+    "path": "sprites/spr_button_rotatecw/spr_button_rotatecw.yy",
   },
   "spriteMaskId": null,
   "visible": true,

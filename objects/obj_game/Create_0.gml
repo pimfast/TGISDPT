@@ -4,4 +4,6 @@ global.paused = false
 global.fastforward = false
 global.heldtower = ""
 
-selectedtower = undefined
+//initialize upgrade specifications
+global.archerupgradetreeA = []
+global.archerupgradetreeB = []

@@ -42,9 +42,6 @@ if (mouse_x < 160 || mouse_y < 160) {
 			//cursor_sprite = spr_wizard
 			break;
 		case "":
-			if (instance_place(mouse_x,mouse_y,obj_towerparent)) {
-				obj_game.selectedtower = undefined
-			}
 			break;
 	}
 	window_set_cursor(cr_default)

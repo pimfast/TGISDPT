@@ -1,9 +1,9 @@
 /// @desc
 
-hp = 1
-damage = 1
-walksp = 1
-cashvalue = 1
+hp = 0
+damage = 0
+walksp = 0
+cashvalue = 0
 walked = 0
 realwalked = 0
 
