@@ -40,11 +40,11 @@ if (room != rm_menu) {
 			draw_set_halign(fa_center)
 			draw_set_valign(fa_middle)
 			draw_text_transformed_color(room_width/2,room_height/2,"you win!",5,5,0,c_purple,c_purple,c_purple,c_purple,1)
-			if (iamagoodprogrammer == 0) {
+			if (iamagoodprogrammer == false) {
 				audio_stop_all()
 				audio_play_sound(mus_win,1,0)
 				selectedtower = undefined
-				iamagoodprogrammer = 1
+				iamagoodprogrammer = true;
 			}
 		}
 	}

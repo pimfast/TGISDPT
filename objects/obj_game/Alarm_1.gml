@@ -21,7 +21,7 @@ if (!is_undefined(enemynumber) && !is_undefined(currentwave)){
 		case "END":
 			currentwave++;
 			if(currentwave > 4){
-				currentwave = -1;
+				currentwave = -1; // indicates the level is done and you win
 			}
 			
 			enemynumber = 0
@@ -31,7 +31,7 @@ if (!is_undefined(enemynumber) && !is_undefined(currentwave)){
 			if (currentwave == -1) {
 				alarm_set(0,-1)
 				timetowave = 0
-				iamagoodprogrammer = 0
+				iamagoodprogrammer = false;
 			}
 			break;
 	}
