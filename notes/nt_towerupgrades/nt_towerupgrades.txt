@@ -1,5 +1,6 @@
 ------------------------
 either it's all the same
+(booorrrriiiiiiiiinnnng)
 ------------------------
 
 damage up
@@ -13,21 +14,21 @@ pierce up(?)
 -------------------------------------------------
 or all towers can have their own special upgrades
 (after spending in two upgrade trees, it locks
-the remaining one. after getting any tree to
+the remaining one, and after getting any tree to
 the third level, it locks the other one to
 just the first two levels)
 -------------------------------------------------
 
 ARCHER: shoots arrows at enemies in range
 
-range up -> range up and faster arrows -> great ears (shoots anything in range of a tower) -> archer tower (MASSIVE range increase)
+range up -> range up and arrows fly faster -> great ears (shoots anything in range of a tower) -> archer tower (MASSIVE range increase)
 																								^ or range is entire screen
 attack speed up -> keen eyes (detect and shoot invisible enemies) -> smart targeting -> twin shot (2 arrows per shot)
 
-dmg up -> poison-tipped arrows -> dmg up + extra dmg to big enemies -> sharp arrows (penetrate reinforced enemies)
+dmg up -> poison-tipped arrows -> attack speed up + extra dmg to big enemies -> sharp arrows (penetrate reinforced enemies)
 
 
-CANNON: shoots in a straight line, can rotate it before placing or pay to rotate it clockwise/counterclockwise after placement
+CANNON: shoots in a straight line, can rotate it before placing or pay to rotate it after placement
 
 explosive (explode and damage reinforced enemies) -> explosion radius increase -> expansion (double size of both self and projectiles also dmg up) -> big balls (triple size and damage)
 
@@ -51,7 +52,7 @@ more tar (stay tarred longer) -> attack speed up -> explosive tar -> quantum tar
 
 sticky tar (slows down more) -> range up -> icky tar (slows down more) -> heavy tar (dizzies targets)
 
-chunky tar (damages enemies) -> dmg up -> poison tar (poisons enemies) -> acid tar (tar removes reinforcements)
+chunky tar (damages enemies) -> dmg up -> toxic tar (poisons enemies) -> acid tar (tar removes reinforcements)
 
 
 WIZARD: like archer but can pay to teleport to another location

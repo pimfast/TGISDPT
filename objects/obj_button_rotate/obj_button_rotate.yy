@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "system",
-    "path": "folders/Objects/buttons/system.yy",
+    "name": "select",
+    "path": "folders/Objects/buttons/select.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_button_rotatecw",
+    "path": "sprites/spr_button_rotatecw/spr_button_rotatecw.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

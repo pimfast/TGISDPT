@@ -1,3 +1,5 @@
+///@desc spawn enemy
+
 if (!is_undefined(enemynumber) && !is_undefined(currentwave)){
 	chosenenemy = array_get(currentwave,enemynumber)
 	switch (chosenenemy) {
@@ -17,7 +19,27 @@ if (!is_undefined(enemynumber) && !is_undefined(currentwave)){
 			alarm_set(1,gamespeed_microseconds*30) 
 			break;
 		case "END":
-			currentwave = array_get_index(global.waves,currentwave,1,array_length(global.waves)) //global.wave2
+			//what the heck ever
+			switch (currentwave) {
+			    case global.wave1:
+			        currentwave = global.wave2
+			        break;
+			    case global.wave2:
+			        currentwave = global.wave3
+			        break;
+			    case global.wave3:
+			        currentwave = global.wave4
+			        break;
+			    case global.wave4:
+			        currentwave = global.wave5
+			        break;
+			    case global.wave5:
+			        currentwave = -1
+			        break;
+			    default:
+			        break;
+			}
+			//^ that was painful
 			enemynumber = 0
 			alarm_set(1,-1)
 			alarm_set(0,60)
