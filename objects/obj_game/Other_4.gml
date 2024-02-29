@@ -107,4 +107,5 @@ switch (room) {
 
 enemynumber = 0
 chosenenemy = 0
-currentwave = array_first(global.waves)
+currentwave = 0; //array_first(global.waves);
+

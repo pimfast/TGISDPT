@@ -1,7 +1,7 @@
 ///@desc spawn enemy
 
 if (!is_undefined(enemynumber) && !is_undefined(currentwave)){
-	chosenenemy = array_get(currentwave,enemynumber)
+	chosenenemy = array_get(global.waves[currentwave],enemynumber)
 	switch (chosenenemy) {
 		case "baddie":
 			instance_create_layer(-8,72,"Instances",obj_baddie)
@@ -19,27 +19,11 @@ if (!is_undefined(enemynumber) && !is_undefined(currentwave)){
 			alarm_set(1,gamespeed_microseconds*30) 
 			break;
 		case "END":
-			//what the heck ever
-			switch (currentwave) {
-			    case global.wave1:
-			        currentwave = global.wave2
-			        break;
-			    case global.wave2:
-			        currentwave = global.wave3
-			        break;
-			    case global.wave3:
-			        currentwave = global.wave4
-			        break;
-			    case global.wave4:
-			        currentwave = global.wave5
-			        break;
-			    case global.wave5:
-			        currentwave = -1
-			        break;
-			    default:
-			        break;
+			currentwave++;
+			if(currentwave > 4){
+				currentwave = -1;
 			}
-			//^ that was painful
+			
 			enemynumber = 0
 			alarm_set(1,-1)
 			alarm_set(0,60)
@@ -53,6 +37,6 @@ if (!is_undefined(enemynumber) && !is_undefined(currentwave)){
 	}
 }
 
-if (enemynumber < array_length(currentwave)) {
+if (enemynumber < array_length(global.waves[currentwave])) {
 	enemynumber++
 }

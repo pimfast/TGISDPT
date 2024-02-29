@@ -7,7 +7,7 @@ if (room != rm_menu) {
 	draw_set_valign(fa_top)
 	draw_text_color(300,10,"Cash: "+string(cash),c_purple,c_purple,c_purple,c_purple,1)
 	draw_text_color(300,20,"HP: "+string(defense_points),c_purple,c_purple,c_purple,c_purple,1)
-	draw_text_color(300,30,"idk"/*array_find_index(global.waves,currentwave)*/+"/"+string(array_length(global.waves)),c_black,c_black,c_black,c_black,1)
+	draw_text_color(300,30,"Wave:"+string(currentwave+1)+"/"+string(array_length(global.waves)),c_black,c_black,c_black,c_black,1)
 	
 	if (!is_undefined(selectedtower)) {
 		draw_set_alpha(0.3)
