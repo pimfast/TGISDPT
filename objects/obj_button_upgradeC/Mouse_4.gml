@@ -3,7 +3,7 @@
 if (obj_game.cash >= cost) {
 	obj_game.cash -= cost
 	obj_game.selectedtower.towervalue += cost
-	obj_game.selectedtower.attack_range += 10
+	obj_game.selectedtower.attack_range += 12
 	
 	if (obj_game.selectedtowertype == obj_archer) {
 		obj_game.selectedtower.upgradeprogressC += 1

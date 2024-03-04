@@ -5,9 +5,9 @@ draw_set_font(fnt_1)
 if (room != rm_menu) {
 	draw_set_halign(fa_right)
 	draw_set_valign(fa_top)
-	draw_text_color(300,10,"Wave: "+string(currentwave+1)+"/"+string(array_length(global.waves)),c_black,c_black,c_black,c_black,1)
-	draw_text_color(300,20,"Cash: "+string(int64(cash)),c_purple,c_purple,c_purple,c_purple,1)
-	draw_text_color(300,30,"HP: "+string(defense_points),c_purple,c_purple,c_purple,c_purple,1)
+	draw_text_color(obj_camera.cameraX+300,obj_camera.cameraY+10,"Wave: "+string(currentwave+1)+"/"+string(array_length(global.waves)),c_black,c_black,c_black,c_black,1)
+	draw_text_color(obj_camera.cameraX+300,obj_camera.cameraY+20,"Cash: "+string(int64(cash)),c_purple,c_purple,c_purple,c_purple,1)
+	draw_text_color(obj_camera.cameraX+300,obj_camera.cameraY+30,"HP: "+string(defense_points),c_purple,c_purple,c_purple,c_purple,1)
 	
 	if (instance_exists(obj_heldtower)) {
 		//show range
@@ -95,10 +95,7 @@ if (room != rm_menu) {
 	}
 	
 } else {
-
-//draw_set_halign(fa_center)
-//draw_set_valign(fa_middle)
-
-//draw_text_transformed_color(100,room_height/2,"Start",1.1,1.1,0,c_black,c_black,c_black,c_black,1)
-//draw_text_color(100,room_height/2,"Start",c_purple,c_purple,c_purple,c_purple,1)
+	draw_set_halign(fa_center)
+	draw_set_valign(fa_middle)
+	draw_text_transformed_color(room_width/2,0+(room_height/3)*2,"Press SPACE to start",5,5,0,c_purple,c_purple,c_purple,c_purple,1)
 }

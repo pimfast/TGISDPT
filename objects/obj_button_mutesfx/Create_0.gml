@@ -1,5 +1,8 @@
 /// @desc
 
+buttonX = 16
+buttonY = 176
+
 if (global.sfx_muted == true) {
 	audio_group_set_gain(ag_sfx,0,0)
 	image_index = 1

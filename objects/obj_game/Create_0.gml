@@ -7,23 +7,6 @@ global.sfx_muted = false
 global.heldtower = ""
 global.occupied = [];
 
-
-////initialize upgrade specifications
-//upgrade_tree_a_1 = "muay thai training"
-//upgrade_tree_a_1.description = "damage up"
-//upgrade_tree_a_1.icon = spr_button_upgrade_damageup
-//upgrade_tree_a_1.cost = 50
-
-//upgrade_tree_b_1 = "cocainesumption"
-//upgrade_tree_b_1.description = "attack speed up"
-//upgrade_tree_b_1.icon = spr_button_upgrade_attackspeed_up
-//upgrade_tree_b_1.cost = 50
-
-//upgrade_tree_a_1 = "lasik surgery"
-//upgrade_tree_c_1.description = "range up"
-//upgrade_tree_c_1.icon = spr_button_upgrade_rangeup
-//upgrade_tree_c_1.cost = 50
-
 //global.archerupgradetreeA = [upgrade_tree_a_1]
 //global.archerupgradetreeB = [upgrade_tree_b_1]
 //global.archerupgradetreeC = [upgrade_tree_c_1]

@@ -124,6 +124,10 @@ switch (room) {
 			global.wave1,global.wave2,global.wave3,global.wave4,global.wave5
 		)
         break;
+	case rm_level2:
+		music = audio_play_sound(mus_level1,1,0);
+		global.occupied = [];
+		break;
 }
 
 enemynumber = 0
