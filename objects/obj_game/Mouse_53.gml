@@ -16,31 +16,33 @@ if (mouse_x < 160 || mouse_y < 160) {
 	if( ! isOccupied(tower_x, tower_y)){
 		switch (global.heldtower) {
 			case "archer":
-				instance_create_layer(tower_x,tower_y,"Instances",obj_archer);
+				var newarcher = instance_create_layer(tower_x,tower_y,"Instances",obj_archer);
 				obj_game.cash -= obj_button_archer.itemprice;
 				occupy(tower_x, tower_y);
 				global.heldtower = "";
 				break;
 			case "cannon":
-				instance_create_layer(tower_x,tower_y,"Instances",obj_cannon);
+				var newcannon = instance_create_layer(tower_x,tower_y,"Instances",obj_cannon);
+				newcannon.dir = obj_heldtower.dir
+				newcannon.sprite_index = obj_heldtower.sprite_index
 				obj_game.cash -= obj_button_cannon.itemprice;
 				occupy(tower_x, tower_y);
 				global.heldtower = "";
 				break;
 			case "knight":
-				instance_create_layer(tower_x,tower_y,"Instances",obj_knight);
+				var newknight = instance_create_layer(tower_x,tower_y,"Instances",obj_knight);
 				obj_game.cash -= obj_button_knight.itemprice;
 				occupy(tower_x, tower_y);
 				global.heldtower = "";
 				break;
 			case "saw":
-				instance_create_layer(tower_x,tower_y,"Instances",obj_saw);
+				var newsaw = instance_create_layer(tower_x,tower_y,"Instances",obj_saw);
 				obj_game.cash -= obj_button_saw.itemprice;
 				occupy(tower_x, tower_y);
 				global.heldtower = "";
 				break;
 			case "wizard":
-				instance_create_layer(tower_x,tower_y,"Instances",obj_wizard);
+				var newwizard = instance_create_layer(tower_x,tower_y,"Instances",obj_wizard);
 				obj_game.cash -= obj_button_wizard.itemprice;
 				occupy(tower_x, tower_y);
 				global.heldtower = "";
@@ -56,6 +58,6 @@ if (mouse_x < 160 || mouse_y < 160) {
 		if (selectedtower == undefined) && (global.heldtower != "") {audio_play_sound(sfx_err,1,0)}
 	}
 	global.heldtower = ""
+	instance_destroy(obj_heldtower)
 	window_set_cursor(cr_default)
-	cursor_sprite = -1
 }

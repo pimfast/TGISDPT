@@ -9,8 +9,6 @@ attack speed up
 
 range up
 
-pierce up(?)
-
 -------------------------------------------------
 or all towers can have their own special upgrades
 (after spending in two upgrade trees, it locks
@@ -21,8 +19,8 @@ just the first two levels)
 
 ARCHER: shoots arrows at enemies in range
 
-range up -> range up and arrows fly faster -> great ears (shoots anything in range of a tower) -> archer tower (MASSIVE range increase)
-																								^ or range is entire screen
+range up -> range up and pierce -> archer tower (MASSIVE range increase + arrows fly faster) -> archer church (dmg up + nearby towers range increased)
+
 attack speed up -> keen eyes (detect and shoot invisible enemies) -> smart targeting -> twin shot (2 arrows per shot)
 
 dmg up -> poison-tipped arrows -> attack speed up + extra dmg to big enemies -> sharp arrows (penetrate reinforced enemies)
@@ -55,10 +53,10 @@ sticky tar (slows down more) -> range up -> icky tar (slows down more) -> heavy 
 chunky tar (damages enemies) -> dmg up -> toxic tar (poisons enemies) -> acid tar (tar removes reinforcements)
 
 
-WIZARD: like archer but can pay to teleport to another location
+WIZARD: like archer but can pay to teleport a tower
 
 fireball (occasionally extra damage to tarred enemies also lights them on fire) -> dmg up -> malice (attacks poison enemies) -> fire tornado (emits a ring of fire every once in a while)
+																																^ or maybe bolts arc/chain to enemies or something i have no idea how to word this
+magic missile (projectiles always try to find a target) -> range up -> ZAP! (attacks stun enemies) -> pocket watch (occasionally hypnotizes an enemy)
 
-magic missile (chases enemies even out of range) -> range up -> ZAP! (attacks stun enemies) -> pocket watch (occasionally hypnotizes an enemy)
-
-fly ([sunglasses] towers in range power up) -> generate a little cash every round -> super senses (supported towers can target and damage anything but disables self's attack) -> supported tower damage and attack speed up
+fly ([sunglasses] nearby tower power up) -> generate a little cash every round -> super senses (supported towers can target and damage anything but disables self's attack) -> supported tower damage and attack speed up

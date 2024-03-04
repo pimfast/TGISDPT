@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_wizard",
-  "bbox_bottom": 13,
+  "bbox_bottom": 14,
   "bbox_left": 1,
   "bbox_right": 14,
-  "bbox_top": 3,
+  "bbox_top": 4,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "towers",
-    "path": "folders/Sprites/towers.yy",
+    "name": "wizard",
+    "path": "folders/Sprites/towers/wizard.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

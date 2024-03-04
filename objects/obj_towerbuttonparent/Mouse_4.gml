@@ -3,21 +3,23 @@
 if (obj_game.cash >= itemprice) {
 	global.heldtower = itemtype
 	window_set_cursor(cr_none)
+	if (!instance_exists(obj_heldtower)) {instance_create_layer(x,y,"Instances",obj_heldtower)}
+	obj_heldtower.dir = "L"
 	switch (itemtype) {
-	    case "archer":
-			cursor_sprite = spr_archer
-	        break;
-	    case "cannon":
-			cursor_sprite = spr_cannonleft
-	        break;
-	    case "knight":
-			cursor_sprite = spr_knight
-	        break;
-	    case "saw":
-			cursor_sprite = spr_saw
-	        break;
-	    case "wizard":
-			cursor_sprite = spr_wizard
-	        break;
+			case "archer":
+				obj_heldtower.sprite_index = spr_archer_n_n_n
+				break;
+			case "cannon":
+				obj_heldtower.sprite_index = spr_cannonleft
+				break;
+			case "knight":
+				obj_heldtower.sprite_index = spr_knight
+				break;
+			case "saw":
+				obj_heldtower.sprite_index = spr_saw
+				break;
+			case "wizard":
+				obj_heldtower.sprite_index = spr_wizard
+				break;
 	}
 }

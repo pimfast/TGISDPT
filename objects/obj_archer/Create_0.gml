@@ -3,9 +3,13 @@
 towervalue = obj_button_archer.itemprice
 
 attack_power = 1
-attack_speed = 0.75
+attack_speed = 1
 attack_range = 48
 
 proj_speed = 1
+target = noone //redundant i think
+targettingpriority = "first"
 
-alarm_set(0,gamespeed_microseconds*60)
+upgradeprogressA = 0
+upgradeprogressB = 0
+upgradeprogressC = 0

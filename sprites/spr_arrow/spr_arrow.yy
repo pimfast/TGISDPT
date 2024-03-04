@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "towers",
-    "path": "folders/Sprites/towers.yy",
+    "name": "archer",
+    "path": "folders/Sprites/towers/archer.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

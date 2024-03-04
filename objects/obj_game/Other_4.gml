@@ -14,9 +14,10 @@ if (room == rm_menu) {
 
 window_set_cursor(cr_default)
 cash = 180
-defense_points = 10
+maxdp = 10
+defense_points = maxdp
 
-timetowave = 5
+timetowave = 15
 alarm_set(0,60)
 
 global.waves = []
@@ -115,9 +116,7 @@ switch (room) {
 		array_set(global.wave5, 2, "bigbaddie");
 		array_set(global.wave5, 4, "bigbaddie");
 		array_set(global.wave5, 6, "bigbaddie");
-		array_set(global.wave5, 8, "bigbaddie");
-		array_set(global.wave5, 10, "bigbaddie");
-		array_set(global.wave5, 12, "baddie");
+		array_set(global.wave5, 8, "baddie");
 		array_push(global.wave5, "END");
 		
 		array_push(
@@ -132,7 +131,3 @@ chosenenemy = 0
 
 currentwave = 0; //array_first(global.waves);
 selectedtower = undefined
-
-currentwave = 0
-
-

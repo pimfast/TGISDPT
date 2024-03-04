@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_cannondown",
-  "bbox_bottom": 14,
+  "bbox_bottom": 13,
   "bbox_left": 1,
   "bbox_right": 14,
   "bbox_top": 1,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "towers",
-    "path": "folders/Sprites/towers.yy",
+    "name": "cannon",
+    "path": "folders/Sprites/towers/cannon.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

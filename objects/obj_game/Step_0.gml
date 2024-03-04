@@ -6,7 +6,7 @@
 switch (room) {
 	case rm_level1:
 		var _pos = audio_sound_get_track_position(music)
-		if (_pos > 77.37) {
+		if (_pos > 77.39) {
 				music = audio_play_sound(mus_level1,1,0);
 		}
 		if (keyboard_check_pressed(vk_space)) {
@@ -18,4 +18,10 @@ switch (room) {
 			room_goto_next()
 		}
 	    break;
+}
+
+if (room != rm_menu) {
+	if (keyboard_check_pressed(ord("M"))) {
+		with (obj_button_mutemusic) {event_perform(ev_mouse,ev_left_press)}
+	}
 }

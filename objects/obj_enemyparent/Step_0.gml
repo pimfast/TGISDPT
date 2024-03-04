@@ -10,11 +10,11 @@ if( ! is_undefined(global.path[realwalked]) && global.path[realwalked] != 0){
 
 switch(dir){
 	case "U":
-		if (self = obj_slug) {/*sprite_index = spr_slugup*/}
+		if (object_index == obj_slug) {/*sprite_index = spr_slugup*/}
 		y -= walksp
 		break;
 	case "R":
-		if (self = obj_slug) {sprite_index = spr_slugright}
+		if (object_index == obj_slug) {sprite_index = spr_slugright}
 		x += walksp
 		break;
 	case "D":
@@ -41,3 +41,7 @@ switch(dir){
 		instance_destroy()
 		break;
 }
+
+//if (array_contains(conditions[],"buttered")) {
+//	sprite_set_speed(sprite_index,sprite_get_speed(sprite_index)*2,gamespeed_fps)
+//}

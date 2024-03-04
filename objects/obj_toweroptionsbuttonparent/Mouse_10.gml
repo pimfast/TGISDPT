@@ -1,3 +1,3 @@
 /// @desc
 
-showdescription = true
+showtext = true

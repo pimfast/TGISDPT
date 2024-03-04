@@ -1,5 +1,7 @@
 /// @desc
 
+name = ""
 description = ""
-showdescription = false
 cost = 20
+
+showtext = false
