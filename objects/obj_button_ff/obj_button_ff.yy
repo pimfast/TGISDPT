@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "system",
-    "path": "folders/Objects/buttons/system.yy",
+    "name": "system buttons",
+    "path": "folders/Objects/buttons/system buttons.yy",
   },
   "parentObjectId": {
     "name": "obJ_systembuttonparent",

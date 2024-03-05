@@ -3,7 +3,7 @@
 if (obj_game.cash >= itemprice) {
 	global.heldtower = itemtype
 	window_set_cursor(cr_none)
-	if (!instance_exists(obj_heldtower)) {instance_create_layer(x,y,"Instances",obj_heldtower)}
+	if (!instance_exists(obj_heldtower)) {instance_create_layer(x,y,"Extraneous",obj_heldtower)}
 	obj_heldtower.dir = "L"
 	switch (itemtype) {
 			case "archer":

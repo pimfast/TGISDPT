@@ -2,6 +2,6 @@
 
 name = ""
 description = ""
-cost = 20
+cost = 10
 
 showtext = false

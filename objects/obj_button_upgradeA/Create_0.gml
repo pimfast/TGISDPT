@@ -2,7 +2,7 @@
 
 name = "damage up"
 description = string(obj_game.selectedtower.attack_power)
-cost = 30
+cost = 50
 
 showtext = false
 

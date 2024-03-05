@@ -5,15 +5,14 @@
 
 // when not on any button we place the tower
 //if (!place_meeting(mouse_x,mouse_y,obj_button_archer)) {
-if (mouse_x < 160 || mouse_y < 160) {
-	window_set_cursor(cr_none)
+if (((mouse_x < obj_camera.cameraX+160 || mouse_y < obj_camera.cameraY+160)) && global.heldtower != "") {
 	// we gotta place towers only on grid positions, so round mouse_x and mouse_y to the nearest grid
 	// grid = 16
 	tower_x = floor(mouse_x/16) * 16;
 	tower_y = floor(mouse_y/16) * 16;
 	
 	// is this location occupied?
-	if( ! isOccupied(tower_x, tower_y)){
+	if ( ! isOccupied(tower_x, tower_y)) {
 		switch (global.heldtower) {
 			case "archer":
 				var newarcher = instance_create_layer(tower_x,tower_y,"Instances",obj_archer);

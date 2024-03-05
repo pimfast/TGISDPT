@@ -4,15 +4,15 @@ if (!is_undefined(enemynumber) && (currentwave != -1)) {
 	chosenenemy = array_get(global.waves[currentwave],enemynumber)
 	switch (chosenenemy) {
 		case "baddie":
-			instance_create_layer(-8,72,"Instances",obj_baddie)
+			instance_create_layer(-8,enemyspawn_y,"Instances",obj_baddie)
 			alarm_set(1,gamespeed_microseconds*30) 
 			break;
 		case "bigbaddie":
-			instance_create_layer(-8,72,"Instances",obj_bigbaddie)
+			instance_create_layer(-8,enemyspawn_y,"Instances",obj_bigbaddie)
 			alarm_set(1,gamespeed_microseconds*30) 
 			break;
 		case "slug":
-			instance_create_layer(-8,72,"Instances",obj_slug)
+			instance_create_layer(-8,enemyspawn_y,"Instances",obj_slug)
 			alarm_set(1,gamespeed_microseconds*30) 
 			break;
 		case 0:
@@ -40,7 +40,6 @@ if (chosenenemy != "END") {
 		if (currentwave == -1) {
 			alarm_set(0,-1)
 			timetowave = 0
-			iamagoodprogrammer = false;
 			exit;
 		}
 	} else {

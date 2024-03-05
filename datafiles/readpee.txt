@@ -1,0 +1,13 @@
+controls:
+
+Left Mouse: Select tower/button
+WASD/Arrow Keys: Move player character
+
+(when holding a tower)
+Left Mouse: Place tower
+Middle Mouse: Cancel
+Right Mouse: Rotate (only for cannon)
+
+
+other buttons:
+M = mute music

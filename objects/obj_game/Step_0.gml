@@ -20,8 +20,17 @@ switch (room) {
 	    break;
 }
 
-if (room != rm_menu) {
-	if (keyboard_check_pressed(ord("M"))) {
+if (keyboard_check_pressed(ord("M"))) {
+	if (room != rm_menu) {
 		with (obj_button_mutemusic) {event_perform(ev_mouse,ev_left_press)}
+	} else {
+		global.music_muted = true
+		audio_group_set_gain(ag_mus,0,500)
+	}
+}
+
+if (room == rm_menu) {
+	if (!audio_is_playing(mus_menu)) {
+		audio_play_sound(mus_menu,1,1)
 	}
 }

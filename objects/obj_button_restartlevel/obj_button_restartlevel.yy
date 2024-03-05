@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "game end buttons",
-    "path": "folders/Objects/buttons/system/game end buttons.yy",
+    "path": "folders/Objects/buttons/system buttons/game end buttons.yy",
   },
   "parentObjectId": null,
   "persistent": false,

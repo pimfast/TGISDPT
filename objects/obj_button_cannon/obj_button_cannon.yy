@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "tower",
-    "path": "folders/Objects/buttons/tower.yy",
+    "name": "tower buttons",
+    "path": "folders/Objects/buttons/tower buttons.yy",
   },
   "parentObjectId": {
     "name": "obj_towerbuttonparent",

@@ -13,3 +13,7 @@ targettingpriority = "first"
 upgradeprogressA = 0
 upgradeprogressB = 0
 upgradeprogressC = 0
+
+spritetip = "n"
+spritearrow = "n"
+spritebandana = "n"

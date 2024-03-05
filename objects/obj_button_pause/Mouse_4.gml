@@ -1,3 +1,5 @@
 /// @desc
 
-room_goto(rm_menu)
+//room_goto(rm_menu)
+
+show_message("sry not working rn :(")

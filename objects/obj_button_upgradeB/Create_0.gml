@@ -2,7 +2,7 @@
 
 name = "attack speed up"
 description = string(obj_game.selectedtower.attack_speed)
-cost = 30
+cost = 50
 
 showtext = false
 

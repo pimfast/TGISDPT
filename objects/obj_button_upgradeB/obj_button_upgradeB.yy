@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "select",
-    "path": "folders/Objects/buttons/select.yy",
+    "name": "select buttons",
+    "path": "folders/Objects/buttons/select buttons.yy",
   },
   "parentObjectId": {
     "name": "obj_toweroptionsbuttonparent",

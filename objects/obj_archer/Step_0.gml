@@ -1,25 +1,26 @@
 /// @desc
 
-if (sprite_index == spr_archershoot) && (image_index >= 3) {
+if (upgradeprogressA = 1) {spritetip = "tipgreen"}
+if (upgradeprogressA = 2) {spritetip = "tipblue"}
+if (upgradeprogressA = 3) {spritetip = "tipred"}
+	
+if (upgradeprogressB = 1) {spritearrow = "arrowblue"}
+if (upgradeprogressB = 2) {spritearrow = "arrowred"}
+if (upgradeprogressB = 3) {spritearrow = "arrowgreen"}
+	
+if (upgradeprogressC = 1) {spritebandana = "bandanared"}
+if (upgradeprogressC = 2) {spritebandana = "bandanagreen"}
+if (upgradeprogressC = 3) {spritebandana = "bandanablue"}
+
+if (image_index >= 3) {
 	//this actually does nothing since upgraded archers don't do the shooting animation
-	var spritetip = "n"
-	var spritearrow = "n"
-	var spritebandana = "n"
-	if (upgradeprogressA = 1) {spritetip = "tipgreen"}
-	if (upgradeprogressA = 2) {spritetip = "tipblue"}
-	if (upgradeprogressA = 3) {spritetip = "tipred"}
-	
-	if (upgradeprogressB = 1) {spritearrow = "arrowblue"}
-	if (upgradeprogressB = 2) {spritearrow = "arrowred"}
-	if (upgradeprogressB = 3) {spritearrow = "arrowgreen"}
-	
-	if (upgradeprogressC = 1) {spritebandana = "bandanared"}
-	if (upgradeprogressC = 2) {spritebandana = "bandanagreen"}
-	if (upgradeprogressC = 3) {spritebandana = "bandanablue"}
+	//so this is all for changing back i think
 	
 	sprite_index = asset_get_index("spr_archer_"+spritetip+"_"+spritearrow+"_"+spritebandana)
 	
-	if ((upgradeprogressA > 3 || upgradeprogressB > 3 || upgradeprogressC > 3) && ((upgradeprogressA >= 3) && (upgradeprogressB >= 3) && (upgradeprogressC >= 3))) {sprite_index = spr_archer_ultimate}
+	if ((upgradeprogressA > 3 || upgradeprogressB > 3 || upgradeprogressC > 3) && ((upgradeprogressA >= 3) && (upgradeprogressB >= 3) && (upgradeprogressC >= 3))) {
+		sprite_index = spr_archer_ultimate
+	}
 	
 }
 

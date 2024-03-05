@@ -2,7 +2,7 @@
 
 name = "range up"
 description = string(obj_game.selectedtower.attack_range)
-cost = 30
+cost = 50
 
 showtext = false
 

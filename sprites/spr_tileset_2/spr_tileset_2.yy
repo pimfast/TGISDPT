@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_tileset_2",
-  "bbox_bottom": 127,
+  "bbox_bottom": 175,
   "bbox_left": 0,
   "bbox_right": 143,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 16,
   "gridY": 16,
-  "height": 128,
+  "height": 176,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5813a630-d6cb-4acb-8ccb-31cc9f485a5e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},

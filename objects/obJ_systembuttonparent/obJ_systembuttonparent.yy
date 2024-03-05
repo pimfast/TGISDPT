@@ -3,14 +3,14 @@
   "resourceVersion": "1.0",
   "name": "obJ_systembuttonparent",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "system",
-    "path": "folders/Objects/buttons/system.yy",
+    "name": "system buttons",
+    "path": "folders/Objects/buttons/system buttons.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -2,7 +2,7 @@
 
 towervalue = obj_button_wizard.itemprice
 
-attack_power = 1
+attack_power = 1.5
 attack_speed = 1
 attack_range = 36
 
