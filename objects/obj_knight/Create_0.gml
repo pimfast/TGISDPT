@@ -2,9 +2,8 @@
 
 towervalue = obj_button_knight.itemprice
 
-attack_power = 1
+attack_power = 2
 attack_speed = 1
-attack_range = 0
-dir = "L"
+attack_range = 16 //1 tile on each side
 
-alarm_set(0,gamespeed_microseconds*60)
+targettingpriority = "first"

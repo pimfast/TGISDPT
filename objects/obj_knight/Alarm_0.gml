@@ -1,11 +1,8 @@
 /// @desc
 
-if (instance_exists(obj_enemyparent)) {
-	if (point_in_circle(obj_enemyparent.x,obj_enemyparent.y,x+(sprite_width/2),y+(sprite_height/2),attack_range)) {
-		var arrow = instance_create_layer(x,y,"Instances",obj_arrow)
-		arrow.target = obj_enemyparent
-		arrow.damage = attack_power
-	}
+if (instance_exists(target)) {
+	var slash = instance_create_layer(target.x,target.y,"Instances",obj_slash)
+	slash.target = target
+	slash.damage = attack_power
+	ds_list_destroy(list);
 }
-
-alarm_set(0,gamespeed_microseconds*0.01)

@@ -17,7 +17,7 @@ cash = 180
 maxdp = 10
 defense_points = maxdp
 
-timetowave = 3//15
+timetowave = 15
 alarm_set(0,60)
 
 global.waves = []
@@ -257,7 +257,7 @@ switch (room) {
 		array_set(global.wave3, 2, "baddie");
 		array_set(global.wave3, 4, "baddie");
 		array_set(global.wave3, 6, "bigbaddie");
-		array_set(global.wave3, 7, "bigbaddie");
+		array_set(global.wave3, 8, "bigbaddie");
 		array_push(global.wave3, "END");
 		
 		global.wave4 = []

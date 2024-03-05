@@ -4,7 +4,13 @@ if (room != rm_menu) {
 	if (timetowave > 0 && !instance_exists(obj_enemyparent)) {
 		draw_set_halign(fa_left)
 		draw_set_valign(fa_middle)
-		draw_text_color(0,enemyspawn_y,string(timetowave),c_black,c_black,c_black,c_black,1)
+		var timetowavex = 0
+		var timetowavey = enemyspawn_y
+		while (timetowavex < obj_camera.cameraX) {timetowavex++}
+		while (timetowavex > obj_camera.cameraX+obj_camera.cameraWidth) {timetowavex--}
+		while (timetowavey < obj_camera.cameraY+5) {timetowavey++}
+		while (timetowavey > obj_camera.cameraY+obj_camera.cameraHeight-5) {timetowavey--}
+		draw_text_color(timetowavex,timetowavey,string(timetowave),c_black,c_black,c_black,c_black,1)
 	}
 	
 	if (instance_exists(obj_heldtower)) {

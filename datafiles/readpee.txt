@@ -11,3 +11,4 @@ Right Mouse: Rotate (only for cannon)
 
 other buttons:
 M = mute music
+Esc = titlescreen

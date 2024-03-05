@@ -10,19 +10,15 @@ if( ! is_undefined(global.path[realwalked]) && global.path[realwalked] != 0){
 
 switch(dir){
 	case "U":
-		if (object_index == obj_slug) {/*sprite_index = spr_slugup*/}
 		y -= walksp
 		break;
 	case "R":
-		if (object_index == obj_slug) {sprite_index = spr_slugright}
 		x += walksp
 		break;
 	case "D":
-		if (self = obj_slug) {/*sprite_index = spr_slugdown*/}
 		y += walksp;
 		break;
 	case "L":
-		if (self = obj_slug) {sprite_index = spr_slugleft}
 		x -= walksp;
 		break;
 	case "END":
