@@ -31,9 +31,10 @@ if (room != rm_menu) {
 			audio_stop_all()
 			audio_play_sound(mus_win,1,0)
 			selectedtower = undefined
-			var newgameplusbutton = instance_create_layer(obj_camera.cameraX+(obj_camera.cameraWidth/3),obj_camera.cameraY+(obj_camera.cameraHeight/3)*2,"Buttons",obj_button_newgameplus)
-			var nextlevelbutton = instance_create_layer(obj_camera.cameraX+(obj_camera.cameraWidth/3)*2,obj_camera.cameraY+(obj_camera.cameraHeight/3)*2,"Buttons",obj_button_nextlevel)
+			var newgameplusbutton = instance_create_layer(obj_camera.cameraX+(obj_camera.cameraWidth/3),obj_camera.cameraY+(obj_camera.cameraHeight/3)*2+16,"Buttons",obj_button_newgameplus)
+			var nextlevelbutton = instance_create_layer(obj_camera.cameraX+(obj_camera.cameraWidth/3)*2,obj_camera.cameraY+(obj_camera.cameraHeight/3)*2+16,"Buttons",obj_button_nextlevel)
 		}
+		if (instance_exists(obj_heldtower)) {instance_destroy(obj_heldtower)}
 		obj_player.sprite_index = spr_scatwin
 	}
 } else {

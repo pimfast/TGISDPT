@@ -1,7 +1,7 @@
 controls:
 
 Left Mouse: Select tower/button
-WASD/Arrow Keys: Move player character
+WASD/Arrow Keys: Move player character (important in level 2!)
 
 (when holding a tower)
 Left Mouse: Place tower

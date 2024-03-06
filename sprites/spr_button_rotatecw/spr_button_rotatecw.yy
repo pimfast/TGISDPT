@@ -13,6 +13,7 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e8964c9e-b574-44f7-b5d4-881b4b69d6e3",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e4037b94-4126-4e8c-bcf2-2c67b38ea9ca",},
   ],
   "gridX": 0,
@@ -43,7 +44,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 1.0,
+    "length": 2.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -54,7 +55,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e4037b94-4126-4e8c-bcf2-2c67b38ea9ca","path":"sprites/spr_button_rotatecw/spr_button_rotatecw.yy",},},},"Disabled":false,"id":"a5a247e4-ceec-4fd5-a063-4dbe626b2304","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e8964c9e-b574-44f7-b5d4-881b4b69d6e3","path":"sprites/spr_button_rotatecw/spr_button_rotatecw.yy",},},},"Disabled":false,"id":"977347bc-d865-4a8a-af91-92f6394a152e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e4037b94-4126-4e8c-bcf2-2c67b38ea9ca","path":"sprites/spr_button_rotatecw/spr_button_rotatecw.yy",},},},"Disabled":false,"id":"a5a247e4-ceec-4fd5-a063-4dbe626b2304","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

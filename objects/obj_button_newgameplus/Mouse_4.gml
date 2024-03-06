@@ -6,6 +6,7 @@ with (obj_game) {
 	alarm_set(1,-1)
 	alarm_set(0,60)
 	timetowave = 5
+	obj_player.sprite_index = spr_scatdown
 	instance_destroy(obj_button_nextlevel)
 	instance_destroy(obj_button_newgameplus)
 	switch (room) {
