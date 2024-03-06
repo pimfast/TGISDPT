@@ -8,4 +8,15 @@ with (obj_game) {
 	timetowave = 5
 	instance_destroy(obj_button_nextlevel)
 	instance_destroy(obj_button_newgameplus)
+	switch (room) {
+	    case rm_level1:
+	        music = audio_play_sound(mus_level1,1,0);
+	        break;
+	    case rm_level2:
+	        music = audio_play_sound(mus_level1,1,0);
+	        break;
+	    default:
+	        // code here
+	        break;
+	}
 }

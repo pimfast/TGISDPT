@@ -3,5 +3,5 @@
 buttonX = 160
 buttonY = 160
 
-itemprice = 70
+itemprice = 75
 itemtype = "archer"

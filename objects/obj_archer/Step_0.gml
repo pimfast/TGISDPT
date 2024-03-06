@@ -2,15 +2,15 @@
 
 if (upgradeprogressA = 1) {spritetip = "tipgreen"}
 if (upgradeprogressA = 2) {spritetip = "tipblue"}
-if (upgradeprogressA = 3) {spritetip = "tipred"}
+if (upgradeprogressA >= 3) {spritetip = "tipred"}
 	
 if (upgradeprogressB = 1) {spritearrow = "arrowblue"}
 if (upgradeprogressB = 2) {spritearrow = "arrowred"}
-if (upgradeprogressB = 3) {spritearrow = "arrowgreen"}
+if (upgradeprogressB >= 3) {spritearrow = "arrowgreen"}
 	
 if (upgradeprogressC = 1) {spritebandana = "bandanared"}
 if (upgradeprogressC = 2) {spritebandana = "bandanagreen"}
-if (upgradeprogressC = 3) {spritebandana = "bandanablue"}
+if (upgradeprogressC >= 3) {spritebandana = "bandanablue"}
 
 if (image_index >= 3) {
 	//this actually does nothing since upgraded archers don't do the shooting animation

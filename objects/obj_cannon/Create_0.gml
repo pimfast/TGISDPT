@@ -3,7 +3,7 @@
 towervalue = obj_button_cannon.itemprice
 
 attack_power = 2
-attack_speed = 0.5
+attack_speed = 0.75
 attack_range = 0
 proj_speed = 1.25
 

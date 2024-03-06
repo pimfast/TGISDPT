@@ -24,6 +24,8 @@ key_use = (keyboard_check_pressed(vk_control)) //|| keyboard_check_pressed(vk_sp
 vspeed = 0
 hspeed = 0
 
+if ((sprite_index == spr_scatlose)  || (sprite_index == spr_scatwin)) {key_left = 0; key_right = 0; key_up = 0; key_down = 0; key_use = 0;}
+
 if (key_left) {hspeed = walksp*-1; vspeed = 0}
 if (key_right) {hspeed = walksp; vspeed = 0}
 if (key_up) {hspeed = 0; vspeed = walksp*-1}
@@ -43,17 +45,12 @@ if (key_down) {
 	sprite_index = spr_scatdown
 }
 
-//change key_left into a negative number so you can go left
-if (key_left > 0) {key_left *= -1}
-if (key_up > 0) {key_up *= -1}
-
 //horizontal collision
 if (place_meeting(x+hspeed,y,obj_collision))
 {
 	
 	hspeed = 0;
 }
-
 
 //vertical collision
 if (place_meeting(x,y+vspeed,obj_collision))

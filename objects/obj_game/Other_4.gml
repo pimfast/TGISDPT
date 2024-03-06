@@ -253,11 +253,10 @@ switch (room) {
 		array_push(global.wave2, "END");
 		
 		global.wave3 = []
-		array_set(global.wave3, 0, "baddie");
-		array_set(global.wave3, 2, "baddie");
-		array_set(global.wave3, 4, "baddie");
-		array_set(global.wave3, 6, "bigbaddie");
-		array_set(global.wave3, 8, "bigbaddie");
+		array_set(global.wave3, 0, "bigbaddie");
+		array_set(global.wave3, 2, "bigbaddie");
+		array_set(global.wave3, 4, "bigbaddie");
+		array_set(global.wave3, 6, "baddie");
 		array_push(global.wave3, "END");
 		
 		global.wave4 = []
@@ -288,9 +287,29 @@ switch (room) {
 		array_set(global.wave5, 8, "bigbaddie");
 		array_push(global.wave5, "END");
 		
+		global.wave6 = []
+		array_set(global.wave6, 0, "baddie");
+		array_set(global.wave6, 1, "slug");
+		array_set(global.wave6, 2, "bigbaddie");
+		array_set(global.wave6, 5, "baddie");
+		array_set(global.wave6, 6, "slug");
+		array_set(global.wave6, 7, "bigbaddie");
+		array_set(global.wave6, 10, "baddie");
+		array_set(global.wave6, 11, "slug");
+		array_set(global.wave6, 12, "bigbaddie");
+		array_set(global.wave6, 18, "bigbaddie");
+		array_set(global.wave6, 19, "bigbaddie");
+		array_set(global.wave6, 20, "bigbaddie");
+		array_set(global.wave6, 21, "bigbaddie");
+		array_set(global.wave6, 22, "bigbaddie");
+		array_set(global.wave6, 23, "bigbaddie");
+		array_set(global.wave6, 24, "bigbaddie");
+		array_set(global.wave6, 35, "slug");
+		array_push(global.wave6, "END");
+		
 		array_push(
 			global.waves, 
-			global.wave1,global.wave2,global.wave3,global.wave4,global.wave5
+			global.wave1,global.wave2,global.wave3,global.wave4,global.wave5,global.wave6
 		)
 		break;
 }

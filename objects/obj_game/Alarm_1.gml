@@ -29,7 +29,7 @@ if (chosenenemy != "END") {
 } else { 
 	if (!instance_exists(obj_enemyparent)) {
 		currentwave++;
-		if(currentwave > 4){
+		if(currentwave > array_length(global.waves)-1){
 			currentwave = -1; // indicates the level is done and you win
 		}
 			

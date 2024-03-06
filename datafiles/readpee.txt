@@ -12,3 +12,12 @@ Right Mouse: Rotate (only for cannon)
 other buttons:
 M = mute music
 Esc = titlescreen
+
+
+towers:
+
+archer: standard damage with long range
+cannon: fires in a straight line with bigger damage but slower firing rate
+knight: itty-bitty range with good damage
+saw: same idea as knight. (will be replaced by a cooler tower in the future!)
+wizard: quicker and more powerful attacks but at a higher cost

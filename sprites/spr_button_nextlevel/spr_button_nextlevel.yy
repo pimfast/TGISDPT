@@ -24,7 +24,7 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"749d9080-b81e-4e46-a9b2-4e401b3d1d3e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 4,
+  "origin": 5,
   "parent": {
     "name": "system",
     "path": "folders/Sprites/buttons/system.yy",
@@ -61,7 +61,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 32,
+    "xorigin": 64,
     "yorigin": 8,
   },
   "swatchColours": null,
