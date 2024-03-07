@@ -14,10 +14,6 @@ switch (room) {
 		}
 	    break;
 	case rm_level2:
-		var _pos = audio_sound_get_track_position(music)
-		if (_pos > 77.39) {
-				music = audio_play_sound(mus_level1,1,0);
-		}
 		if (keyboard_check_pressed(vk_escape)) {
 			room_goto(rm_menu)
 		}

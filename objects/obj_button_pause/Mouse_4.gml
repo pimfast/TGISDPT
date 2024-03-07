@@ -2,4 +2,4 @@
 
 //room_goto(rm_menu)
 
-show_message("sry not working rn :(")
+show_message("paused")

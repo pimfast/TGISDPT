@@ -1,6 +1,6 @@
 /// @desc
 
-hp = 10
+hp = 15
 damage = 5
 walksp = 0.5
 cashvalue = 25
