@@ -2,7 +2,9 @@
 
 if (place_meeting(x,y,obj_player)) {
 	audio_stop_all()
-	if (show_question("Truth.") == true) {
+	audio_play_sound(snd_conscience,1,1)
+	window_set_caption("Tower Defense")
+	if (show_question("Inevitable?") == true) {
 		//enable effects
 		layer_enable_fx("Tiles",true)
 		layer_enable_fx("Tiles_Foreground",true)
@@ -26,18 +28,22 @@ if (place_meeting(x,y,obj_player)) {
 		tilemap_set_at_pixel(map_idfg, 0, 21, 26)
 		
 		tilemap_set_at_pixel(map_idfg, data1, 20, 26)
-		tilemap_set_at_pixel(map_idfg, data2, 21, 26)
-		tilemap_set_at_pixel(map_idfg, data2, 22, 26)
+		tilemap_set_at_pixel(map_id, data2, 21, 26)
+		tilemap_set_at_pixel(map_id, data2, 22, 26)
 		//they remain
 		global.wave7 = []
 		array_set(global.wave7, 0, "3");
+		array_push(global.wave7, "END");
+		array_push(global.waves,global.wave7)
 		obj_game.currentwave = 6
 		obj_game.enemynumber = 0
+		obj_game.cash += 100000
 		while (instance_exists(obj_towerparent)) {
 			unoccupy(obj_towerparent.x,obj_towerparent.y)
 			instance_destroy(obj_towerparent)
 		}
 		truth = true
+		window_set_caption("tower defense grame")
 	}
 }
 

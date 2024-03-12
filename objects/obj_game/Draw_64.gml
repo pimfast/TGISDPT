@@ -1,4 +1,4 @@
-/// @desc
+	/// @desc
 
 draw_set_font(fnt_1)
 
@@ -6,7 +6,8 @@ if (room != rm_menu) {
 	draw_set_halign(fa_right)
 	draw_set_valign(fa_top)
 	var currentwavedisplay = currentwave; if (currentwavedisplay == -1) {currentwavedisplay = array_length(global.waves)-1}
-	draw_text_color(300,10,"Wave: "+string(currentwavedisplay+1)+"/"+string(array_length(global.waves)),c_black,c_black,c_black,c_black,1)
+	var wavemaxdisplay =  array_length(global.waves); if (wavemaxdisplay >= 7) {wavemaxdisplay = 6}
+	draw_text_color(300,10,"Wave: "+string(currentwavedisplay+1)+"/"+string(wavemaxdisplay),c_black,c_black,c_black,c_black,1)
 	draw_text_color(300,20,"Cash: "+string(int64(cash)),c_purple,c_purple,c_purple,c_purple,1)
 	draw_text_color(300,30,"HP: "+string(defense_points),c_purple,c_purple,c_purple,c_purple,1)
 	

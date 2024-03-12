@@ -14,7 +14,7 @@ with (obj_game) {
 	        music = audio_play_sound(mus_level1,1,0);
 	        break;
 	    case rm_level2:
-	        music = audio_play_sound(mus_level1,1,0);
+	        music = audio_play_sound(mus_level2,1,1);
 	        break;
 	    default:
 	        // code here

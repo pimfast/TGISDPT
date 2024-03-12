@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_3",
-    "path": "sprites/spr_3/spr_3.yy",
+    "name": "spr_3b",
+    "path": "sprites/spr_3b/spr_3b.yy",
   },
   "spriteMaskId": null,
   "visible": true,

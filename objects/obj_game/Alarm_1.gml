@@ -16,10 +16,14 @@ if (!is_undefined(enemynumber) && (currentwave != -1)) {
 			alarm_set(1,gamespeed_microseconds*30) 
 			break;
 		case 0:
-			alarm_set(1,gamespeed_microseconds*30) 
+			alarm_set(1,gamespeed_microseconds*30)
 			break;
 		case "END":
 			
+			break;
+		case "3":
+			instance_create_layer(-8,enemyspawn_y,"Instances",obj_3)
+			alarm_set(1,gamespeed_microseconds*30)
 			break;
 	}
 }
