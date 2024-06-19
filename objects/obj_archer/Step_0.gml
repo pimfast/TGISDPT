@@ -1,15 +1,15 @@
 /// @desc
 
-if (upgradeprogressA = 1) {spritetip = "tipgreen"}
-if (upgradeprogressA = 2) {spritetip = "tipblue"}
+if (upgradeprogressA == 1) {spritetip = "tipgreen"}
+if (upgradeprogressA == 2) {spritetip = "tipblue"}
 if (upgradeprogressA >= 3) {spritetip = "tipred"}
 	
-if (upgradeprogressB = 1) {spritearrow = "arrowblue"}
-if (upgradeprogressB = 2) {spritearrow = "arrowred"}
+if (upgradeprogressB == 1) {spritearrow = "arrowblue"}
+if (upgradeprogressB == 2) {spritearrow = "arrowred"}
 if (upgradeprogressB >= 3) {spritearrow = "arrowgreen"}
 	
-if (upgradeprogressC = 1) {spritebandana = "bandanared"}
-if (upgradeprogressC = 2) {spritebandana = "bandanagreen"}
+if (upgradeprogressC == 1) {spritebandana = "bandanared"}
+if (upgradeprogressC == 2) {spritebandana = "bandanagreen"}
 if (upgradeprogressC >= 3) {spritebandana = "bandanablue"}
 
 if (image_index >= 3) {
@@ -25,9 +25,8 @@ if (image_index >= 3) {
 }
 
 list = ds_list_create();
-var _num = collision_circle_list(x+(sprite_width/2), y+(sprite_height/2), attack_range, obj_enemyparent, false, true, list, false);
-if (_num > 0)
-{
+var _num = collision_circle_list(x+(sprite_width/2), y+(sprite_height/2), attack_range*16, obj_enemyparent, false, true, list, false);
+if (_num > 0) {
 	switch (targettingpriority) {
 		case "first":
 			target = (list[| 0])
@@ -51,6 +50,6 @@ if (_num > 0)
 	        // code here
 	        break;
 	}
-		
+	//image_xscale *-= sign(target.x - x);
 }
 ds_list_destroy(list);

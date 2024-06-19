@@ -5,3 +5,11 @@ if (itemprice > obj_game.cash) {
 } else {
 	image_index = 0
 }
+
+if (global.heldtower == itemtype) {
+	image_xscale = 0.4
+	image_yscale = 0.4
+} else {
+	image_xscale = 0.5
+	image_yscale = 0.5
+}

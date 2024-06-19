@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "archer",
-    "path": "folders/Sprites/towers/archer.yy",
+    "name": "wtfboom",
+    "path": "folders/Sprites/towers/archer/upgraded tower/wtfboom.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

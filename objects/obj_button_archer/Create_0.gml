@@ -1,7 +1,7 @@
 /// @desc create (child)
 
-buttonX = 160
-buttonY = 160
+buttonX = 176
+buttonY = 176
 
 itemprice = 75
 itemtype = "archer"

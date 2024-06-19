@@ -8,4 +8,4 @@ showtext = false
 
 sprite_index = spr_button_upgrade_rangeup
 
-if (obj_game.selectedtowertype == obj_saw) || (obj_game.selectedtowertype == obj_cannon) {instance_destroy()}
+if (obj_game.selectedtowertype == obj_saw) {instance_destroy()}

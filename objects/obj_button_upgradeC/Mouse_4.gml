@@ -3,7 +3,9 @@
 if (obj_game.cash >= cost) {
 	obj_game.cash -= cost
 	obj_game.selectedtower.towervalue += cost
-	obj_game.selectedtower.attack_range += 12
+	obj_game.selectedtower.attack_range += 1
+	
+	audio_play_sound(sfx_upgrade3,1,0)
 	
 	if (obj_game.selectedtowertype == obj_archer) {
 		obj_game.selectedtower.upgradeprogressC += 1

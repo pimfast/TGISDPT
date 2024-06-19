@@ -29,7 +29,7 @@ if (room != rm_menu) {
 		draw_text_transformed_color(obj_camera.cameraWidth/2,obj_camera.cameraHeight/2,"you win!",5,5,0,c_purple,c_purple,c_purple,c_purple,1)
 		if (defense_points >= maxdp) {draw_text_color(obj_camera.cameraWidth/2,123,"perfect!!",c_purple,c_purple,c_purple,c_purple,1)}
 		if (!instance_exists(obj_button_nextlevel)) {
-			audio_stop_all()
+			audio_group_stop_all(ag_mus)
 			audio_play_sound(mus_win,1,0)
 			selectedtower = undefined
 			var newgameplusbutton = instance_create_layer(obj_camera.cameraX+(obj_camera.cameraWidth/3),obj_camera.cameraY+(obj_camera.cameraHeight/3)*2+16,"Buttons",obj_button_newgameplus)

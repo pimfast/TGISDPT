@@ -8,6 +8,8 @@ if (obj_game.cash >= cost) {
 		obj_game.selectedtower.image_speed += 0.50
 	}
 	
+	audio_play_sound(sfx_upgrade3,1,0)
+	
 	if (obj_game.selectedtowertype == obj_archer) {
 		obj_game.selectedtower.upgradeprogressB += 1
 	

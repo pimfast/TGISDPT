@@ -1,5 +1,12 @@
 /// @desc
 
+if (global.heldtower == itemtype) {
+	global.heldtower = ""
+	window_set_cursor(cr_default)
+	instance_destroy(obj_heldtower)
+	exit
+}
+
 if (obj_game.cash >= itemprice) {
 	global.heldtower = itemtype
 	window_set_cursor(cr_none)

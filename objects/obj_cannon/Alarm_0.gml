@@ -6,6 +6,7 @@ if (instance_exists(obj_enemyparent)) {
 	cannonball.damage = attack_power
 	cannonball.dir = dir
 	cannonball.proj_speed = proj_speed
+	cannonball.lifespan = (attack_range*16)+20
 }
 
 alarm_set(0,gamespeed_microseconds*(60/attack_speed))

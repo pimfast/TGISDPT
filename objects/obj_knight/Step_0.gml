@@ -1,7 +1,7 @@
 /// @desc
 
 list = ds_list_create();
-var _num = collision_circle_list(x+(sprite_width/2), y+(sprite_height/2), attack_range, obj_enemyparent, false, true, list, false);
+var _num = collision_circle_list(x+(sprite_width/2), y+(sprite_height/2), attack_range*16, obj_enemyparent, false, true, list, false);
 if (_num > 0)
 {
 	switch (targettingpriority) {
@@ -29,4 +29,3 @@ if (_num > 0)
 	}
 		
 }
-ds_list_destroy(list);

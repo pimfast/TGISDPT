@@ -3,6 +3,8 @@
 if (obj_game.cash >= cost) {
 	obj_game.cash -= cost
 	
+	audio_play_sound(sfx_bworm,1,0)
+	
 	switch (obj_game.selectedtower.dir) {
 	    case "L":
 	        obj_game.selectedtower.dir = "D"

@@ -1,8 +1,8 @@
 /// @desc
 
 if (place_meeting(x,y,obj_player)) {
-	audio_stop_all()
-	audio_play_sound(snd_conscience,1,1)
+	//audio_stop_all()
+	audio_play_sound(snd_conscious,1,1)
 	window_set_caption("Tower Defense")
 	if (show_question("Inevitable?") == true) {
 		//enable effects

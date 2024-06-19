@@ -30,7 +30,7 @@ switch(dir){
 			if (defense_points <= 0) {
 				instance_deactivate_object(obj_enemyparent)
 				obj_game.alarm[1] = -1
-				audio_stop_all()
+				audio_group_stop_all(ag_mus)
 				audio_play_sound(mus_lose,1,0)
 			}
 		}

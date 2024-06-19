@@ -19,25 +19,44 @@ if (room != rm_menu) {
 		var heldtowerrange = 0
 		switch (global.heldtower) {
 		    case "archer":
-		        heldtowerrange = 48
+		        heldtowerrange = 3
 		        break;
 		    case "cannon":
-				heldtowerrange = 0
+				heldtowerrange = 4
 		        break;
 		    case "knight":
-		        heldtowerrange = 16
+		        heldtowerrange = 1
 		        break;
 		    case "saw":
 		        heldtowerrange = 0
 		        break;
 		    case "wizard":
-		        heldtowerrange = 36
+		        heldtowerrange = 2
 		        break;
 		    default:
 		        sprite_index = noone
 		        break;
 		}
-	draw_circle_color(obj_heldtower.x+(obj_heldtower.sprite_width/2),obj_heldtower.y+(obj_heldtower.sprite_height/2),heldtowerrange,c_black,c_black,false)
+		if (global.heldtower == "cannon") {
+			switch (obj_heldtower.dir) {
+				case "L":
+					draw_rectangle_color(obj_heldtower.x+16,obj_heldtower.y+16,(obj_heldtower.x-16)-(heldtowerrange*16)-1,obj_heldtower.y-1,c_black,c_black,c_black,c_black,false)
+					break;
+				case "R":
+					draw_rectangle_color(obj_heldtower.x,obj_heldtower.y+16,(obj_heldtower.x+32)+(heldtowerrange*16)-1,obj_heldtower.y-1,c_black,c_black,c_black,c_black,false)
+					break;
+				case "U":
+					draw_rectangle_color(obj_heldtower.x+16,obj_heldtower.y+16,obj_heldtower.x-1,(obj_heldtower.y-16)-(heldtowerrange*16)-1,c_black,c_black,c_black,c_black,false)
+					break;
+				case "D":
+					draw_rectangle_color(obj_heldtower.x+16,obj_heldtower.y,obj_heldtower.x-1,(obj_heldtower.y+32)+(heldtowerrange*16)-1,c_black,c_black,c_black,c_black,false)
+					break;
+				default:
+				    break;
+			}
+		} else {
+			draw_circle_color(obj_heldtower.x+(obj_heldtower.sprite_width/2)-1,obj_heldtower.y+(obj_heldtower.sprite_height/2)-1,heldtowerrange*16,c_black,c_black,false)
+		}
 	draw_set_alpha(1)
 	}
 	
@@ -45,10 +64,30 @@ if (room != rm_menu) {
 			selectedtower = undefined
 	} else {
 		if (!is_undefined(selectedtower)) {
+			if (selectedtowertype == obj_saw) {selectedtower.x -= 8; selectedtower.y -= 8}
 			draw_set_alpha(0.3)
-			draw_circle_color(selectedtower.x+(selectedtower.sprite_width/2),selectedtower.y+(selectedtower.sprite_height/2),selectedtower.attack_range,c_black,c_black,false)
+			if (selectedtowertype == obj_cannon) {
+				switch (selectedtower.dir) {
+				    case "L":
+					    draw_rectangle_color(selectedtower.x+16,selectedtower.y+16,(selectedtower.x-16)-(selectedtower.attack_range*16)-1,selectedtower.y-1,c_black,c_black,c_black,c_black,false)
+					    break;
+					case "R":
+					    draw_rectangle_color(selectedtower.x-1,selectedtower.y+16,(selectedtower.x+32)+(selectedtower.attack_range*16)-1,selectedtower.y-1,c_black,c_black,c_black,c_black,false)
+					    break;
+					case "U":
+					    draw_rectangle_color(selectedtower.x+16,selectedtower.y+16,selectedtower.x-1,(selectedtower.y-16)-(selectedtower.attack_range*16)-1,c_black,c_black,c_black,c_black,false)
+					    break;
+					case "D":
+					    draw_rectangle_color(selectedtower.x+16,selectedtower.y,selectedtower.x-1,(selectedtower.y+32)+(selectedtower.attack_range*16)-1,c_black,c_black,c_black,c_black,false)
+					    break;
+				    default:
+				        break;
+				}
+			} else {
+				draw_circle_color(selectedtower.x+(selectedtower.sprite_width/2)-1,selectedtower.y+(selectedtower.sprite_height/2)-1,selectedtower.attack_range*16,c_black,c_black,false)
+			}
 			draw_set_alpha(1)
-			draw_circle_color(selectedtower.x+(selectedtower.sprite_width/2),selectedtower.y+(selectedtower.sprite_height/2),25,c_orange,c_orange,true)
+			draw_circle_color(selectedtower.x+(selectedtower.sprite_width/2)-1,selectedtower.y+(selectedtower.sprite_height/2)-1,25,c_orange,c_orange,true)
 			if (!instance_exists(obj_button_sell)) {
 				var towersellbutton = instance_create_layer(selectedtower.x+(selectedtower.sprite_width/2),selectedtower.y+(selectedtower.sprite_height/2)+25,"Buttons",obj_button_sell)
 			
@@ -65,6 +104,7 @@ if (room != rm_menu) {
 				var towerupgradebuttonB = instance_create_layer(selectedtower.x+(selectedtower.sprite_width/2),selectedtower.y+(selectedtower.sprite_height/2)-25,"Buttons",obj_button_upgradeB)
 				var towerupgradebuttonC = instance_create_layer(selectedtower.x+(selectedtower.sprite_width/2)+20,selectedtower.y+(selectedtower.sprite_height/2)-22,"Buttons",obj_button_upgradeC)
 			}
+			if (selectedtowertype == obj_saw) {selectedtower.x += 8; selectedtower.y += 8}
 		}
 	}
 }
