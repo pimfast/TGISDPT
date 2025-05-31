@@ -2,6 +2,8 @@
 
 lifespan -= 1
 
+image_angle += 10
+
 if (!instance_exists(obj_enemyparent)) || (lifespan <= 0) {
 	instance_destroy()
 }
