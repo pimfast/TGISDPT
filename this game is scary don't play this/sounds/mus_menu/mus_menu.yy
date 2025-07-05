@@ -1,7 +1,6 @@
 {
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "mus_menu",
+  "$GMSound": "",
+  "%Name": "mus_menu",
   "audioGroupId": {
     "name": "ag_mus",
     "path": "audiogroups/ag_mus",
@@ -11,11 +10,14 @@
   "compression": 0,
   "conversionMode": 0,
   "duration": 68.59754,
+  "name": "mus_menu",
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
   "preload": false,
+  "resourceType": "GMSound",
+  "resourceVersion": "2.0",
   "sampleRate": 44100,
   "soundFile": "mus_menu.mp3",
   "type": 0,

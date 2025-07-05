@@ -1,7 +1,6 @@
 {
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "mus_level2",
+  "$GMSound": "",
+  "%Name": "mus_level2",
   "audioGroupId": {
     "name": "ag_mus",
     "path": "audiogroups/ag_mus",
@@ -11,11 +10,14 @@
   "compression": 0,
   "conversionMode": 0,
   "duration": 114.468544,
+  "name": "mus_level2",
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
   "preload": false,
+  "resourceType": "GMSound",
+  "resourceVersion": "2.0",
   "sampleRate": 44100,
   "soundFile": "mus_level2.mp3",
   "type": 1,

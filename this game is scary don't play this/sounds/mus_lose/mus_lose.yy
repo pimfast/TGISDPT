@@ -1,7 +1,6 @@
 {
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "mus_lose",
+  "$GMSound": "",
+  "%Name": "mus_lose",
   "audioGroupId": {
     "name": "ag_mus",
     "path": "audiogroups/ag_mus",
@@ -11,11 +10,14 @@
   "compression": 0,
   "conversionMode": 0,
   "duration": 2.768958,
+  "name": "mus_lose",
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",
   },
   "preload": false,
+  "resourceType": "GMSound",
+  "resourceVersion": "2.0",
   "sampleRate": 44100,
   "soundFile": "mus_lose.mp3",
   "type": 0,

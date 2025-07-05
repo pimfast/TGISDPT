@@ -1,7 +1,6 @@
 {
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "sfx_bwam",
+  "$GMSound": "",
+  "%Name": "sfx_bwam",
   "audioGroupId": {
     "name": "ag_sfx",
     "path": "audiogroups/ag_sfx",
@@ -11,11 +10,14 @@
   "compression": 0,
   "conversionMode": 0,
   "duration": 0.835917,
+  "name": "sfx_bwam",
   "parent": {
     "name": "placeholder",
     "path": "folders/Sounds/Sound Effects/placeholder.yy",
   },
   "preload": false,
+  "resourceType": "GMSound",
+  "resourceVersion": "2.0",
   "sampleRate": 44100,
   "soundFile": "sfx_bwam.mp3",
   "type": 0,

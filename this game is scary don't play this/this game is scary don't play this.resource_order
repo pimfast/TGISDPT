@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
@@ -48,7 +48,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
+  "ResourceOrderSettings":[
     {"name":"spr_arrow_tipgreen_arrowgreen","order":10,"path":"sprites/spr_arrow_tipgreen_arrowgreen/spr_arrow_tipgreen_arrowgreen.yy",},
     {"name":"spr_archer_tipred_n_bandanared","order":50,"path":"sprites/spr_archer_tipred_n_bandanared/spr_archer_tipred_n_bandanared.yy",},
     {"name":"spr_3","order":8,"path":"sprites/spr_3/spr_3.yy",},

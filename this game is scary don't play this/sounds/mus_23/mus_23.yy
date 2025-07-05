@@ -1,7 +1,6 @@
 {
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "mus_23",
+  "$GMSound": "",
+  "%Name": "mus_23",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -11,11 +10,14 @@
   "compression": 0,
   "conversionMode": 0,
   "duration": 30.66775,
+  "name": "mus_23",
   "parent": {
     "name": "placeholder",
     "path": "folders/Sounds/Music/placeholder.yy",
   },
   "preload": false,
+  "resourceType": "GMSound",
+  "resourceVersion": "2.0",
   "sampleRate": 44100,
   "soundFile": "mus_23.mp3",
   "type": 0,
